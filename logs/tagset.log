@@ -1,0 +1,871 @@
+[2022-01-17 12:19:33.692.032][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:19:33.692.439][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:19:33.693.196][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.693.347][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.693.525][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.693.668][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.693.817][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.693.961][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.102][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.242][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.383][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.525][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.665][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:33.694.805][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 12:19:33.694.949][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 12:19:33.695.085][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 12:19:33.695.487][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:19:33.695.636][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:19:33.698.14][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 12:19:33.698.365][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 12:19:33.700.302][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 12:19:33.700.828][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:19:33.701.014][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:19:33.701.174][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 12:19:33.701.544][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 12:19:39.80.5][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:19:39.80.812][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:19:39.81.597][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.81.754][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.81.904][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.045][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.187][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.328][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.469][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.61][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.79][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.82.932][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.83.072][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:39.83.211][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 12:19:39.83.355][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 12:19:39.83.49][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 12:19:39.83.853][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:19:39.83.998][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:19:39.86.837][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 12:19:39.87.063][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 12:19:39.89.037][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 12:19:39.89.599][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:19:39.89.786][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:19:39.89.972][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 12:19:39.90.489][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 13:50:27.555.633][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:50:27.555.999][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:50:27.557.315][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.557.595][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.557.789][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.557.972][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.558.156][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.558.339][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.558.522][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.558.705][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.558.888][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.559.072][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.559.257][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:27.559.438][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 13:50:27.559.624][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 13:50:27.559.802][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 13:50:27.560.204][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:50:27.560.396][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:50:27.565.125][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 13:50:27.565.393][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 13:50:27.567.863][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 13:50:27.568.464][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:50:27.568.67][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:50:27.568.892][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:50:27.569.546][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 13:51:19.906.014][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:51:19.906.421][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:51:19.907.271][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.907.509][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.907.722][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.907.953][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.908.163][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.908.367][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.908.571][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.908.77][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.908.959][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.909.151][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.909.341][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:19.909.576][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 13:51:19.909.77][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 13:51:19.909.959][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 13:51:19.910.367][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:51:19.910.558][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:51:19.913.261][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 13:51:19.913.57][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 13:51:19.915.731][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 13:51:19.916.311][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:51:19.916.533][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:51:19.916.772][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:51:19.917.39][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 14:06:51.157.255][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:06:51.157.665][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:06:51.158.458][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.158.675][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.158.91][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.159.101][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.159.289][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.159.469][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.159.649][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.159.83][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.160.01][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.160.192][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.160.373][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:51.160.553][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 14:06:51.160.736][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 14:06:51.160.912][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 14:06:51.161.401][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:06:51.161.622][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:06:51.164.162][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 14:06:51.164.426][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 14:06:51.166.499][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 14:06:51.167.083][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:06:51.167.348][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:06:51.167.595][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:06:51.168.195][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 14:47:30.334.399][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:47:30.334.767][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:47:30.335.541][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.335.746][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.335.938][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.336.129][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.336.326][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.336.518][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.336.718][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.336.917][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.337.109][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.337.303][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.337.517][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:30.337.707][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 14:47:30.337.904][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 14:47:30.338.086][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 14:47:30.338.526][Channel.php:1593] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:47:30.338.716][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:47:30.341.348][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 14:47:30.341.659][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 14:47:30.343.816][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 14:47:30.344.408][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:47:30.344.663][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:47:30.344.883][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:47:30.345.519][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 19:40:20.523.082][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:20.523.456][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:20.524.777][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.525.024][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.525.276][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.525.898][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.526.12][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.526.31][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.526.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.526.692][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.526.883][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.527.07][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.527.252][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:20.527.436][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 19:40:20.527.649][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 19:40:20.527.835][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 19:40:20.528.249][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 19:40:20.528.442][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:20.531.175][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 19:40:20.531.423][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 19:40:20.533.361][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 19:40:20.533.757][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 19:40:20.533.903][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 19:40:20.534.045][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 19:40:20.534.443][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 19:40:26.620.032][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:26.620.401][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:26.621.189][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.621.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.621.723][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.621.926][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.622.118][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.622.307][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.622.493][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.622.68][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.622.867][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.623.054][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.623.241][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:26.623.429][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-17 19:40:26.623.621][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 19:40:26.623.804][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 19:40:26.624.212][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 19:40:26.624.417][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:26.626.236][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 19:40:26.626.526][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=2
+[2022-01-17 19:40:26.628.296][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 19:40:26.628.673][tagset.php:150] MSG: id=2 chid=2  i=1 tagid=1
+[2022-01-17 19:40:26.628.911][tagset.php:150] MSG: id=2 chid=2  i=2 tagid=2
+[2022-01-17 19:40:26.629.129][tagset.php:150] MSG: id=2 chid=2  i=3 tagid=3
+[2022-01-17 19:40:26.629.575][tagset.php:150] MSG: id=2 chid=2  i=4 tagid=4
+[2022-01-17 19:40:26.629.787][tagset.php:150] MSG: id=2 chid=2  i=5 tagid=5
+[2022-01-17 19:40:26.629.994][tagset.php:150] MSG: id=2 chid=2  i=6 tagid=6
+[2022-01-17 19:40:26.630.198][tagset.php:150] MSG: id=2 chid=2  i=7 tagid=7
+[2022-01-17 19:40:26.630.505][tagset.php:150] MSG: id=2 chid=2  i=8 tagid=8
+[2022-01-17 19:40:26.630.649][tagset.php:150] MSG: id=2 chid=2  i=9 tagid=9
+[2022-01-17 19:40:26.630.832][tagset.php:150] MSG: id=2 chid=2  i=10 tagid=10
+[2022-01-17 19:40:26.631.324][tagset.php:150] MSG: id=2 chid=2  i=11 tagid=11
+[2022-01-17 19:40:26.631.459][tagset.php:150] MSG: id=2 chid=2  i=12 tagid=12
+[2022-01-17 19:40:26.631.586][tagset.php:150] MSG: id=2 chid=2  i=13 tagid=13
+[2022-01-17 19:40:26.631.711][tagset.php:150] MSG: id=2 chid=2  i=14 tagid=14
+[2022-01-17 19:40:26.631.998][tagset.php:150] MSG: id=2 chid=2  i=15 tagid=15
+[2022-01-17 19:40:26.632.128][tagset.php:150] MSG: id=2 chid=2  i=16 tagid=16
+[2022-01-17 19:40:26.632.254][tagset.php:150] MSG: id=2 chid=2  i=17 tagid=17
+[2022-01-17 19:40:26.632.555][tagset.php:150] MSG: id=2 chid=2  i=18 tagid=18
+[2022-01-17 19:40:26.633.214][tagset.php:150] MSG: id=2 chid=2  i=19 tagid=19
+[2022-01-17 19:40:26.633.469][tagset.php:150] MSG: id=2 chid=2  i=20 tagid=20
+[2022-01-17 19:40:26.633.933][tagset.php:150] MSG: id=2 chid=2  i=21 tagid=21
+[2022-01-17 19:40:26.634.149][tagset.php:150] MSG: id=2 chid=2  i=22 tagid=22
+[2022-01-17 19:40:26.634.364][tagset.php:150] MSG: id=2 chid=2  i=23 tagid=23
+[2022-01-17 19:40:26.634.578][tagset.php:150] MSG: id=2 chid=2  i=24 tagid=24
+[2022-01-17 19:40:26.635.088][tagset.php:150] MSG: id=2 chid=2  i=25 tagid=25
+[2022-01-17 19:40:26.635.303][tagset.php:150] MSG: id=2 chid=2  i=26 tagid=26
+[2022-01-17 19:40:26.635.519][tagset.php:150] MSG: id=2 chid=2  i=27 tagid=27
+[2022-01-17 19:40:26.636.383][tagset.php:150] MSG: id=2 chid=2  i=28 tagid=28
+[2022-01-17 19:40:26.636.605][tagset.php:150] MSG: id=2 chid=2  i=29 tagid=29
+[2022-01-17 19:40:26.636.804][tagset.php:150] MSG: id=2 chid=2  i=30 tagid=30
+[2022-01-17 19:40:26.636.935][tagset.php:150] MSG: id=2 chid=2  i=31 tagid=31
+[2022-01-17 19:40:26.637.24][tagset.php:150] MSG: id=2 chid=2  i=32 tagid=32
+[2022-01-17 19:40:34.881.484][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:34.881.846][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:34.882.636][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.882.836][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.027][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.219][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.413][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.604][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.791][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.883.98][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.884.173][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.884.358][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.884.539][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:34.884.719][tagset.php:33] MSG: tagset: func begin1111 30
+[2022-01-17 19:40:34.884.904][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 19:40:34.885.081][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 19:40:34.885.511][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=2004test,1 var0=2004test var1=1
+[2022-01-17 19:40:34.885.703][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:34.889.535][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 19:40:34.889.804][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from 2004test_tag where chid=1
+[2022-01-17 19:40:34.891.37][IMerchantsResult.DB.php:1720] ERR: IMerchantsResult_DB::getTagInfo: Call DB->execute_v2 error [error msg]=Unknown column 'reportenable' in 'field list'
+[2022-01-17 19:47:40.512.686][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:47:40.513.038][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:47:40.513.879][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.07][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.219][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.364][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.511][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.656][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.801][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.514.947][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.515.091][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.515.236][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.515.38][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:40.515.524][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 19:47:40.515.673][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 19:47:40.515.815][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 19:47:40.516.194][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 19:47:40.516.345][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:47:40.519.119][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 19:47:40.519.35][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 19:47:40.521.576][IMerchantsResult.DB.php:1727] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 19:47:40.522.269][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 19:47:40.522.45][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 19:47:40.522.629][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 19:47:40.523.213][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 19:47:44.152.068][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:47:44.152.391][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:47:44.153.126][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.153.274][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.153.417][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.153.589][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.153.732][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.153.881][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.025][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.167][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.308][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.45][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.592][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:44.154.768][tagset.php:33] MSG: tagset: func begin1111 50
+[2022-01-17 19:47:44.154.935][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 19:47:44.155.075][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 19:47:44.155.49][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=2004test,2 var0=2004test var1=2
+[2022-01-17 19:47:44.155.644][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:47:44.157.69][IMerchantsResult.DB.php:1709] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 19:47:44.157.924][IMerchantsResult.DB.php:1716] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from 2004test_tag where chid=2
+[2022-01-17 19:47:44.158.736][IMerchantsResult.DB.php:1720] ERR: IMerchantsResult_DB::getTagInfo: Call DB->execute_v2 error [error msg]=Unknown column 'reportenable' in 'field list'
+[2022-01-17 23:19:44.403.613][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:19:44.404.006][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:19:44.404.808][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.405.041][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.405.238][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.405.472][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.405.674][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.405.868][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.406.064][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.406.261][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.406.46][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.406.657][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.406.85][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:19:44.407.045][tagset.php:33] MSG: tagset: func begin1111 4
+[2022-01-17 23:19:44.407.245][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 23:19:44.407.435][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 23:19:44.407.889][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:19:44.408.092][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:19:44.410.379][IMerchantsResult.DB.php:1741] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 23:19:44.410.684][IMerchantsResult.DB.php:1748] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 23:19:44.413.108][IMerchantsResult.DB.php:1759] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 23:19:44.413.765][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:19:44.414.046][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:19:44.414.326][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:19:44.414.933][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 23:20:15.527.1][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:20:15.527.769][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:20:15.529.27][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.529.584][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.529.774][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.529.973][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.530.172][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.530.368][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.530.562][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.530.756][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.530.952][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.531.144][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.531.338][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:15.531.535][tagset.php:33] MSG: tagset: func begin1111 5
+[2022-01-17 23:20:15.531.737][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 23:20:15.531.927][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 23:20:15.532.451][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=gprstest,1 var0=gprstest var1=1
+[2022-01-17 23:20:15.532.669][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:20:15.535.993][IMerchantsResult.DB.php:1741] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 23:20:15.536.173][IMerchantsResult.DB.php:1748] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from gprstest_tag where chid=1
+[2022-01-17 23:20:15.537.667][IMerchantsResult.DB.php:1752] ERR: IMerchantsResult_DB::getTagInfo: Call DB->execute_v2 error [error msg]=Unknown column 'reportenable' in 'field list'
+[2022-01-17 23:24:32.611.767][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:24:32.612.167][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:24:32.612.965][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.613.185][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.613.387][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.613.624][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.613.817][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.614.024][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.614.218][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.614.415][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.614.614][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.614.861][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.615.059][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:32.615.251][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-17 23:24:32.615.449][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-17 23:24:32.615.641][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-17 23:24:32.616.056][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:24:32.616.27][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:24:32.620.955][IMerchantsResult.DB.php:1741] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-17 23:24:32.621.229][IMerchantsResult.DB.php:1748] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-17 23:24:32.623.469][IMerchantsResult.DB.php:1759] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-17 23:24:32.623.951][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:24:32.624.142][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:24:32.624.289][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:24:32.624.747][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-17 23:24:32.624.92][tagset.php:150] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-17 23:24:32.625.078][tagset.php:150] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-17 23:24:32.625.232][tagset.php:150] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-17 23:24:32.625.611][tagset.php:150] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-17 23:24:32.625.77][tagset.php:150] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-17 23:24:32.625.93][tagset.php:150] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-17 23:24:32.626.305][tagset.php:150] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-17 23:24:32.626.467][tagset.php:150] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-17 23:24:32.626.628][tagset.php:150] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-17 23:24:32.626.785][tagset.php:150] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-17 23:24:32.627.145][tagset.php:150] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-17 23:24:32.627.311][tagset.php:150] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-17 23:24:32.627.474][tagset.php:150] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-17 23:24:32.627.855][tagset.php:150] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-17 23:24:32.628.027][tagset.php:150] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-17 23:24:32.628.199][tagset.php:150] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-17 23:24:32.628.364][tagset.php:150] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-17 23:24:32.628.743][tagset.php:150] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-17 23:24:32.628.914][tagset.php:150] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-17 23:24:32.629.092][tagset.php:150] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-17 23:24:32.629.528][tagset.php:150] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-17 23:24:32.629.717][tagset.php:150] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-17 23:24:32.629.888][tagset.php:150] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-17 23:24:32.630.064][tagset.php:150] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-17 23:24:32.630.686][tagset.php:150] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-17 23:24:32.630.884][tagset.php:150] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-17 23:24:32.631.054][tagset.php:150] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-17 23:24:32.631.442][tagset.php:150] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-18 14:26:04.69.95][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 14:26:04.70.306][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 14:26:04.71.608][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.71.787][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.71.94][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.09][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.239][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.388][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.536][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.685][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.833][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.72.982][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.73.131][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:04.73.277][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-18 14:26:04.73.428][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-18 14:26:04.73.623][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-18 14:26:04.74.031][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 14:26:04.74.192][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 14:26:04.78.615][IMerchantsResult.DB.php:1694] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-18 14:26:04.78.81][IMerchantsResult.DB.php:1701] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-18 14:26:04.80.345][IMerchantsResult.DB.php:1712] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-18 14:26:04.80.798][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 14:26:04.81.042][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 14:26:04.81.212][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 14:26:04.81.725][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 14:26:04.81.928][tagset.php:150] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 14:26:04.82.047][tagset.php:150] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-18 14:26:04.82.165][tagset.php:150] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-18 14:26:04.82.484][tagset.php:150] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-18 14:26:04.82.6][tagset.php:150] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-18 14:26:04.82.72][tagset.php:150] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-18 14:26:04.83.04][tagset.php:150] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-18 14:26:04.83.16][tagset.php:150] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-18 14:26:04.83.282][tagset.php:150] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-18 14:26:04.83.407][tagset.php:150] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-18 14:26:04.83.731][tagset.php:150] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-18 14:26:04.83.856][tagset.php:150] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-18 14:26:04.83.983][tagset.php:150] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-18 14:26:04.84.308][tagset.php:150] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-18 14:26:04.84.439][tagset.php:150] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-18 14:26:04.84.567][tagset.php:150] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-18 14:26:04.84.701][tagset.php:150] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-18 14:26:04.85.086][tagset.php:150] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-18 14:26:04.85.301][tagset.php:150] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-18 14:26:04.85.479][tagset.php:150] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-18 14:26:04.85.835][tagset.php:150] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-18 14:26:04.85.952][tagset.php:150] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-18 14:26:04.86.065][tagset.php:150] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-18 14:26:04.86.174][tagset.php:150] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-18 14:26:04.86.644][tagset.php:150] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-18 14:26:04.86.764][tagset.php:150] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-18 14:26:04.86.877][tagset.php:150] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-18 14:26:04.87.166][tagset.php:150] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-18 14:26:39.753.054][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 14:26:39.753.495][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 14:26:39.754.772][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.754.963][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.115][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.265][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.418][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.575][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.728][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.755.883][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.756.036][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.756.191][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.756.345][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:39.756.497][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-18 14:26:39.756.654][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-18 14:26:39.756.804][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-18 14:26:39.757.218][Channel.php:1594] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 14:26:39.757.382][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 14:26:39.759.718][IMerchantsResult.DB.php:1694] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-18 14:26:39.759.945][IMerchantsResult.DB.php:1701] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-18 14:26:39.762.153][IMerchantsResult.DB.php:1712] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-18 14:26:39.762.7][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 14:26:39.762.918][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 14:26:39.763.097][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 14:26:39.763.669][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 14:26:39.763.837][tagset.php:150] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 14:26:39.763.994][tagset.php:150] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-18 14:26:39.764.147][tagset.php:150] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-18 14:26:39.764.572][tagset.php:150] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-18 14:26:39.764.732][tagset.php:150] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-18 14:26:39.764.939][tagset.php:150] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-18 14:26:39.765.38][tagset.php:150] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-18 14:26:39.765.608][tagset.php:150] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-18 14:26:39.765.776][tagset.php:150] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-18 14:26:39.765.941][tagset.php:150] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-18 14:26:39.766.376][tagset.php:150] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-18 14:26:39.766.54][tagset.php:150] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-18 14:26:39.766.702][tagset.php:150] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-18 14:26:39.767.149][tagset.php:150] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-18 14:26:39.767.311][tagset.php:150] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-18 14:26:39.767.474][tagset.php:150] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-18 14:26:39.767.636][tagset.php:150] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-18 14:26:39.768.085][tagset.php:150] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-18 14:26:39.768.254][tagset.php:150] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-18 14:26:39.768.437][tagset.php:150] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-18 14:26:39.768.909][tagset.php:150] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-18 14:26:39.769.08][tagset.php:150] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-18 14:26:39.769.259][tagset.php:150] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-18 14:26:39.769.483][tagset.php:150] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-18 14:26:39.770.11][tagset.php:150] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-18 14:26:39.770.242][tagset.php:150] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-18 14:26:39.770.363][tagset.php:150] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-18 14:26:39.770.677][tagset.php:150] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-19 13:44:42.208.256][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 13:44:42.208.609][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-19 13:44:42.209.918][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.102][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.248][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.394][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.538][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.681][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.825][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.210.969][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.211.112][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.211.257][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.211.4][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:44:42.211.543][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-19 13:44:42.211.689][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-19 13:44:42.211.827][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-19 13:44:42.212.254][Channel.php:1595] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-19 13:44:42.212.406][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 13:44:42.215.999][IMerchantsResult.DB.php:1779] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-19 13:44:42.216.206][IMerchantsResult.DB.php:1786] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-19 13:44:42.218.151][IMerchantsResult.DB.php:1797] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-19 13:44:42.218.589][tagset.php:150] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-19 13:44:42.218.713][tagset.php:150] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-19 13:44:42.218.835][tagset.php:150] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-19 13:44:42.219.232][tagset.php:150] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-19 13:44:42.219.334][tagset.php:150] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-19 13:44:42.219.429][tagset.php:150] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-19 13:44:42.219.518][tagset.php:150] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-19 13:44:42.219.756][tagset.php:150] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-19 13:44:42.219.845][tagset.php:150] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-19 13:44:42.219.939][tagset.php:150] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-19 13:44:42.220.031][tagset.php:150] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-19 13:44:42.220.302][tagset.php:150] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-19 13:44:42.220.397][tagset.php:150] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-19 13:44:42.220.494][tagset.php:150] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-19 13:44:42.220.587][tagset.php:150] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-19 13:44:42.220.875][tagset.php:150] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-19 13:44:42.220.974][tagset.php:150] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-19 13:44:42.221.074][tagset.php:150] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-19 13:44:42.221.168][tagset.php:150] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-19 13:44:42.221.484][tagset.php:150] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-19 13:44:42.221.59][tagset.php:150] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-19 13:44:42.221.688][tagset.php:150] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-19 13:44:42.221.968][tagset.php:150] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-19 13:44:42.222.088][tagset.php:150] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-19 13:44:42.222.187][tagset.php:150] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-19 13:44:42.222.285][tagset.php:150] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-19 13:44:42.222.566][tagset.php:150] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-19 13:44:42.222.666][tagset.php:150] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-19 13:44:42.222.766][tagset.php:150] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-19 13:44:42.222.865][tagset.php:150] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-19 13:44:42.223.311][tagset.php:150] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-19 13:44:42.223.418][tagset.php:150] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-19 13:55:08.574.886][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 13:55:08.575.225][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-19 13:55:08.575.965][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.118][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.264][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.408][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.553][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.698][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.842][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.576.987][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.577.131][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.577.275][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.577.486][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:55:08.577.633][tagset.php:33] MSG: tagset: func begin1111 32
+[2022-01-19 13:55:08.577.777][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-19 13:55:08.577.923][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-19 13:55:08.578.339][Channel.php:1595] MSG: Channel::getTagInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-19 13:55:08.578.494][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 13:55:08.583.804][IMerchantsResult.DB.php:1779] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-19 13:55:08.584.021][IMerchantsResult.DB.php:1786] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=2
+[2022-01-19 13:55:08.586.212][IMerchantsResult.DB.php:1797] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-19 13:55:08.586.57][tagset.php:150] MSG: id=2 chid=2  i=1 tagid=1
+[2022-01-19 13:55:08.586.715][tagset.php:150] MSG: id=2 chid=2  i=2 tagid=2
+[2022-01-19 13:55:08.586.837][tagset.php:150] MSG: id=2 chid=2  i=3 tagid=3
+[2022-01-19 13:55:08.587.283][tagset.php:150] MSG: id=2 chid=2  i=4 tagid=4
+[2022-01-19 13:55:08.587.415][tagset.php:150] MSG: id=2 chid=2  i=5 tagid=5
+[2022-01-19 13:55:08.587.54][tagset.php:150] MSG: id=2 chid=2  i=6 tagid=6
+[2022-01-19 13:55:08.587.661][tagset.php:150] MSG: id=2 chid=2  i=7 tagid=7
+[2022-01-19 13:55:08.587.988][tagset.php:150] MSG: id=2 chid=2  i=8 tagid=8
+[2022-01-19 13:55:08.588.112][tagset.php:150] MSG: id=2 chid=2  i=9 tagid=9
+[2022-01-19 13:55:08.588.236][tagset.php:150] MSG: id=2 chid=2  i=10 tagid=10
+[2022-01-19 13:55:08.588.581][tagset.php:150] MSG: id=2 chid=2  i=11 tagid=11
+[2022-01-19 13:55:08.588.706][tagset.php:150] MSG: id=2 chid=2  i=12 tagid=12
+[2022-01-19 13:55:08.588.835][tagset.php:150] MSG: id=2 chid=2  i=13 tagid=13
+[2022-01-19 13:55:08.588.96][tagset.php:150] MSG: id=2 chid=2  i=14 tagid=14
+[2022-01-19 13:55:08.589.301][tagset.php:150] MSG: id=2 chid=2  i=15 tagid=15
+[2022-01-19 13:55:08.589.458][tagset.php:150] MSG: id=2 chid=2  i=16 tagid=16
+[2022-01-19 13:55:08.589.585][tagset.php:150] MSG: id=2 chid=2  i=17 tagid=17
+[2022-01-19 13:55:08.589.95][tagset.php:150] MSG: id=2 chid=2  i=18 tagid=18
+[2022-01-19 13:55:08.590.087][tagset.php:150] MSG: id=2 chid=2  i=19 tagid=19
+[2022-01-19 13:55:08.590.218][tagset.php:150] MSG: id=2 chid=2  i=20 tagid=20
+[2022-01-19 13:55:08.590.571][tagset.php:150] MSG: id=2 chid=2  i=21 tagid=21
+[2022-01-19 13:55:08.590.702][tagset.php:150] MSG: id=2 chid=2  i=22 tagid=22
+[2022-01-19 13:55:08.590.835][tagset.php:150] MSG: id=2 chid=2  i=23 tagid=23
+[2022-01-19 13:55:08.590.968][tagset.php:150] MSG: id=2 chid=2  i=24 tagid=24
+[2022-01-19 13:55:08.591.322][tagset.php:150] MSG: id=2 chid=2  i=25 tagid=25
+[2022-01-19 13:55:08.591.454][tagset.php:150] MSG: id=2 chid=2  i=26 tagid=26
+[2022-01-19 13:55:08.591.587][tagset.php:150] MSG: id=2 chid=2  i=27 tagid=27
+[2022-01-19 13:55:08.592.212][tagset.php:150] MSG: id=2 chid=2  i=28 tagid=28
+[2022-01-19 13:55:08.592.356][tagset.php:150] MSG: id=2 chid=2  i=29 tagid=29
+[2022-01-19 13:55:08.592.491][tagset.php:150] MSG: id=2 chid=2  i=30 tagid=30
+[2022-01-19 13:55:08.592.623][tagset.php:150] MSG: id=2 chid=2  i=31 tagid=31
+[2022-01-19 13:55:08.592.982][tagset.php:150] MSG: id=2 chid=2  i=32 tagid=32
+[2022-01-20 15:41:29.796.422][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 15:41:29.796.791][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 15:41:29.797.937][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.066][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.156][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.241][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.324][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.407][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.49][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.573][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.656][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.74][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.823][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:29.798.906][tagset.php:41] MSG: tagset: func begin1111 32
+[2022-01-20 15:41:29.798.993][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-20 15:41:29.799.074][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-20 15:41:29.799.408][Channel.php:1597] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 15:41:29.799.523][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 15:41:29.804.073][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-20 15:41:29.804.265][IMerchantsResult.DB.php:1809] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-20 15:41:29.806.616][IMerchantsResult.DB.php:1820] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-20 15:41:29.807.026][tagset.php:158] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 15:41:29.807.146][tagset.php:158] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 15:41:29.807.275][tagset.php:158] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 15:41:29.807.931][tagset.php:158] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 15:41:29.808.064][tagset.php:158] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 15:41:29.808.17][tagset.php:158] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-20 15:41:29.808.26][tagset.php:158] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-20 15:41:29.808.54][tagset.php:158] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-20 15:41:29.808.632][tagset.php:158] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-20 15:41:29.808.727][tagset.php:158] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-20 15:41:29.808.82][tagset.php:158] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-20 15:41:29.809.117][tagset.php:158] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-20 15:41:29.809.215][tagset.php:158] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-20 15:41:29.809.311][tagset.php:158] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-20 15:41:29.809.404][tagset.php:158] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-20 15:41:29.810.068][tagset.php:158] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-20 15:41:29.810.211][tagset.php:158] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-20 15:41:29.810.347][tagset.php:158] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-20 15:41:29.810.474][tagset.php:158] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-20 15:41:29.810.857][tagset.php:158] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-20 15:41:29.810.992][tagset.php:158] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-20 15:41:29.811.133][tagset.php:158] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-20 15:41:29.811.509][tagset.php:158] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-20 15:41:29.811.673][tagset.php:158] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-20 15:41:29.811.806][tagset.php:158] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-20 15:41:29.811.937][tagset.php:158] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-20 15:41:29.812.332][tagset.php:158] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-20 15:41:29.812.468][tagset.php:158] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-20 15:41:29.812.602][tagset.php:158] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-20 15:41:29.812.735][tagset.php:158] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-20 15:41:29.813.362][tagset.php:158] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-20 15:41:29.813.544][tagset.php:158] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-20 15:41:58.284.734][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 15:41:58.285.06][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 15:41:58.285.852][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.012][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.156][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.298][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.44][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.585][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.732][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.286.874][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.287.015][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.287.158][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.287.299][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:41:58.287.437][tagset.php:41] MSG: tagset: func begin1111 32
+[2022-01-20 15:41:58.287.579][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-20 15:41:58.287.714][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-20 15:41:58.288.064][Channel.php:1597] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 15:41:58.288.212][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 15:41:58.291.223][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-20 15:41:58.291.455][IMerchantsResult.DB.php:1809] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-20 15:41:58.293.418][IMerchantsResult.DB.php:1820] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-20 15:41:58.294.117][tagset.php:158] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 15:41:58.294.294][tagset.php:158] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 15:41:58.294.485][tagset.php:158] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 15:41:58.295.073][tagset.php:158] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 15:41:58.295.235][tagset.php:158] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 15:41:58.295.394][tagset.php:158] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-20 15:41:58.295.545][tagset.php:158] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-20 15:41:58.295.972][tagset.php:158] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-20 15:41:58.296.127][tagset.php:158] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-20 15:41:58.296.29][tagset.php:158] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-20 15:41:58.296.495][tagset.php:158] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-20 15:41:58.296.975][tagset.php:158] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-20 15:41:58.297.141][tagset.php:158] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-20 15:41:58.297.306][tagset.php:158] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-20 15:41:58.297.495][tagset.php:158] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-20 15:41:58.298.082][tagset.php:158] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-20 15:41:58.298.256][tagset.php:158] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-20 15:41:58.298.425][tagset.php:158] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-20 15:41:58.298.587][tagset.php:158] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-20 15:41:58.299.08][tagset.php:158] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-20 15:41:58.299.251][tagset.php:158] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-20 15:41:58.299.417][tagset.php:158] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-20 15:41:58.299.942][tagset.php:158] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-20 15:41:58.300.148][tagset.php:158] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-20 15:41:58.300.327][tagset.php:158] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-20 15:41:58.300.497][tagset.php:158] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-20 15:41:58.301.034][tagset.php:158] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-20 15:41:58.301.241][tagset.php:158] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-20 15:41:58.301.415][tagset.php:158] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-20 15:41:58.301.921][tagset.php:158] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-20 15:41:58.302.751][tagset.php:158] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-20 15:41:58.302.936][tagset.php:158] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-20 15:42:13.619.984][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 15:42:13.620.309][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 15:42:13.621.605][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.621.782][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.621.932][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.084][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.231][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.376][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.52][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.665][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.809][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.622.954][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.623.098][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:42:13.623.241][tagset.php:41] MSG: tagset: func begin1111 32
+[2022-01-20 15:42:13.623.386][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-20 15:42:13.623.524][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-20 15:42:13.623.991][Channel.php:1597] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 15:42:13.624.145][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 15:42:13.627.652][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-20 15:42:13.627.882][IMerchantsResult.DB.php:1809] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-20 15:42:13.629.948][IMerchantsResult.DB.php:1820] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-20 15:42:13.630.503][tagset.php:158] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 15:42:13.630.682][tagset.php:158] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 15:42:13.630.874][tagset.php:158] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 15:42:13.631.755][tagset.php:158] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 15:42:13.631.924][tagset.php:158] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 15:42:13.632.082][tagset.php:158] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-20 15:42:13.632.234][tagset.php:158] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-20 15:42:13.632.732][tagset.php:158] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-20 15:42:13.632.888][tagset.php:158] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-20 15:42:13.633.05][tagset.php:158] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-20 15:42:13.633.209][tagset.php:158] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-20 15:42:13.633.769][tagset.php:158] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-20 15:42:13.633.945][tagset.php:158] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-20 15:42:13.634.114][tagset.php:158] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-20 15:42:13.634.282][tagset.php:158] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-20 15:42:13.634.829][tagset.php:158] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-20 15:42:13.634.994][tagset.php:158] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-20 15:42:13.635.163][tagset.php:158] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-20 15:42:13.635.325][tagset.php:158] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-20 15:42:13.635.814][tagset.php:158] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-20 15:42:13.635.984][tagset.php:158] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-20 15:42:13.636.15][tagset.php:158] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-20 15:42:13.636.638][tagset.php:158] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-20 15:42:13.636.809][tagset.php:158] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-20 15:42:13.636.979][tagset.php:158] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-20 15:42:13.637.146][tagset.php:158] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-20 15:42:13.637.67][tagset.php:158] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-20 15:42:13.637.781][tagset.php:158] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-20 15:42:13.637.888][tagset.php:158] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-20 15:42:13.637.998][tagset.php:158] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-20 15:42:13.638.49][tagset.php:158] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-20 15:42:13.638.607][tagset.php:158] MSG: id=1 chid=1  i=32 tagid=32
+[2022-01-20 15:44:23.279.143][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 15:44:23.279.482][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 15:44:23.280.757][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.280.932][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.08][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.224][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.37][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.545][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.69][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.842][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.281.99][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.282.136][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.282.313][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 15:44:23.282.455][tagset.php:41] MSG: tagset: func begin1111 32
+[2022-01-20 15:44:23.282.6][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-20 15:44:23.282.736][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-20 15:44:23.283.164][Channel.php:1597] MSG: Channel::getTagInfo: func begin page=booster,3 var0=booster var1=3
+[2022-01-20 15:44:23.283.315][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 15:44:23.285.518][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-20 15:44:23.285.744][IMerchantsResult.DB.php:1809] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=3
+[2022-01-20 15:44:23.287.548][IMerchantsResult.DB.php:1820] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-20 15:44:23.287.858][tagset.php:158] MSG: id=3 chid=3  i=1 tagid=1
+[2022-01-20 15:44:23.288.002][tagset.php:158] MSG: id=3 chid=3  i=2 tagid=2
+[2022-01-20 15:44:23.288.113][tagset.php:158] MSG: id=3 chid=3  i=3 tagid=3
+[2022-01-20 15:44:23.288.713][tagset.php:158] MSG: id=3 chid=3  i=4 tagid=4
+[2022-01-20 15:44:23.288.88][tagset.php:158] MSG: id=3 chid=3  i=5 tagid=5
+[2022-01-20 15:44:23.289.04][tagset.php:158] MSG: id=3 chid=3  i=6 tagid=6
+[2022-01-20 15:44:23.289.195][tagset.php:158] MSG: id=3 chid=3  i=7 tagid=7
+[2022-01-20 15:44:23.289.686][tagset.php:158] MSG: id=3 chid=3  i=8 tagid=8
+[2022-01-20 15:44:23.289.848][tagset.php:158] MSG: id=3 chid=3  i=9 tagid=9
+[2022-01-20 15:44:23.290.001][tagset.php:158] MSG: id=3 chid=3  i=10 tagid=10
+[2022-01-20 15:44:23.290.274][tagset.php:158] MSG: id=3 chid=3  i=11 tagid=11
+[2022-01-20 15:44:23.290.44][tagset.php:158] MSG: id=3 chid=3  i=12 tagid=12
+[2022-01-20 15:44:23.290.606][tagset.php:158] MSG: id=3 chid=3  i=13 tagid=13
+[2022-01-20 15:44:23.290.768][tagset.php:158] MSG: id=3 chid=3  i=14 tagid=14
+[2022-01-20 15:44:23.291.219][tagset.php:158] MSG: id=3 chid=3  i=15 tagid=15
+[2022-01-20 15:44:23.291.388][tagset.php:158] MSG: id=3 chid=3  i=16 tagid=16
+[2022-01-20 15:44:23.291.578][tagset.php:158] MSG: id=3 chid=3  i=17 tagid=17
+[2022-01-20 15:44:23.292.048][tagset.php:158] MSG: id=3 chid=3  i=18 tagid=18
+[2022-01-20 15:44:23.292.22][tagset.php:158] MSG: id=3 chid=3  i=19 tagid=19
+[2022-01-20 15:44:23.292.389][tagset.php:158] MSG: id=3 chid=3  i=20 tagid=20
+[2022-01-20 15:44:23.292.558][tagset.php:158] MSG: id=3 chid=3  i=21 tagid=21
+[2022-01-20 15:44:23.293.025][tagset.php:158] MSG: id=3 chid=3  i=22 tagid=22
+[2022-01-20 15:44:23.293.199][tagset.php:158] MSG: id=3 chid=3  i=23 tagid=23
+[2022-01-20 15:44:23.293.372][tagset.php:158] MSG: id=3 chid=3  i=24 tagid=24
+[2022-01-20 15:44:23.293.878][tagset.php:158] MSG: id=3 chid=3  i=25 tagid=25
+[2022-01-20 15:44:23.294.053][tagset.php:158] MSG: id=3 chid=3  i=26 tagid=26
+[2022-01-20 15:44:23.294.183][tagset.php:158] MSG: id=3 chid=3  i=27 tagid=27
+[2022-01-20 15:44:23.294.321][tagset.php:158] MSG: id=3 chid=3  i=28 tagid=28
+[2022-01-20 15:44:23.295.124][tagset.php:158] MSG: id=3 chid=3  i=29 tagid=29
+[2022-01-20 15:44:23.295.305][tagset.php:158] MSG: id=3 chid=3  i=30 tagid=30
+[2022-01-20 15:44:23.295.477][tagset.php:158] MSG: id=3 chid=3  i=31 tagid=31
+[2022-01-20 15:44:23.295.946][tagset.php:158] MSG: id=3 chid=3  i=32 tagid=32
+[2022-01-20 16:00:30.767.595][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:00:30.767.932][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 16:00:30.768.702][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.768.854][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.768.999][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.141][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.455][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.604][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.745][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.769.89][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.770.036][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.770.18][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:00:30.770.321][tagset.php:41] MSG: tagset: func begin1111 32
+[2022-01-20 16:00:30.770.464][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getTagInfo
+[2022-01-20 16:00:30.770.599][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getTagInfo
+[2022-01-20 16:00:30.771.075][Channel.php:1597] MSG: Channel::getTagInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 16:00:30.771.245][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:00:30.774.325][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getTagInfo: func begin
+[2022-01-20 16:00:30.774.565][IMerchantsResult.DB.php:1809] MSG: IMerchantsResult_DB::getTagInfo: [sql]=select chid, tagid, tagname,tagdesc,webshow,coiltype,writeenable,reportenable,excellocation,mainpageenable,mainpagelocation from booster_tag where chid=1
+[2022-01-20 16:00:30.776.543][IMerchantsResult.DB.php:1820] MSG: IMerchantsResult_DB::getTagInfo: func end
+[2022-01-20 16:00:30.777.083][tagset.php:158] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 16:00:30.777.273][tagset.php:158] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 16:00:30.777.498][tagset.php:158] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 16:00:30.778.132][tagset.php:158] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 16:00:30.778.316][tagset.php:158] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 16:00:30.778.475][tagset.php:158] MSG: id=1 chid=1  i=6 tagid=6
+[2022-01-20 16:00:30.778.627][tagset.php:158] MSG: id=1 chid=1  i=7 tagid=7
+[2022-01-20 16:00:30.779.046][tagset.php:158] MSG: id=1 chid=1  i=8 tagid=8
+[2022-01-20 16:00:30.779.2][tagset.php:158] MSG: id=1 chid=1  i=9 tagid=9
+[2022-01-20 16:00:30.779.364][tagset.php:158] MSG: id=1 chid=1  i=10 tagid=10
+[2022-01-20 16:00:30.779.528][tagset.php:158] MSG: id=1 chid=1  i=11 tagid=11
+[2022-01-20 16:00:30.779.992][tagset.php:158] MSG: id=1 chid=1  i=12 tagid=12
+[2022-01-20 16:00:30.780.172][tagset.php:158] MSG: id=1 chid=1  i=13 tagid=13
+[2022-01-20 16:00:30.780.344][tagset.php:158] MSG: id=1 chid=1  i=14 tagid=14
+[2022-01-20 16:00:30.780.509][tagset.php:158] MSG: id=1 chid=1  i=15 tagid=15
+[2022-01-20 16:00:30.780.997][tagset.php:158] MSG: id=1 chid=1  i=16 tagid=16
+[2022-01-20 16:00:30.781.164][tagset.php:158] MSG: id=1 chid=1  i=17 tagid=17
+[2022-01-20 16:00:30.781.337][tagset.php:158] MSG: id=1 chid=1  i=18 tagid=18
+[2022-01-20 16:00:30.781.53][tagset.php:158] MSG: id=1 chid=1  i=19 tagid=19
+[2022-01-20 16:00:30.781.914][tagset.php:158] MSG: id=1 chid=1  i=20 tagid=20
+[2022-01-20 16:00:30.782.061][tagset.php:158] MSG: id=1 chid=1  i=21 tagid=21
+[2022-01-20 16:00:30.782.202][tagset.php:158] MSG: id=1 chid=1  i=22 tagid=22
+[2022-01-20 16:00:30.782.599][tagset.php:158] MSG: id=1 chid=1  i=23 tagid=23
+[2022-01-20 16:00:30.782.783][tagset.php:158] MSG: id=1 chid=1  i=24 tagid=24
+[2022-01-20 16:00:30.782.93][tagset.php:158] MSG: id=1 chid=1  i=25 tagid=25
+[2022-01-20 16:00:30.783.072][tagset.php:158] MSG: id=1 chid=1  i=26 tagid=26
+[2022-01-20 16:00:30.783.477][tagset.php:158] MSG: id=1 chid=1  i=27 tagid=27
+[2022-01-20 16:00:30.783.615][tagset.php:158] MSG: id=1 chid=1  i=28 tagid=28
+[2022-01-20 16:00:30.783.754][tagset.php:158] MSG: id=1 chid=1  i=29 tagid=29
+[2022-01-20 16:00:30.783.892][tagset.php:158] MSG: id=1 chid=1  i=30 tagid=30
+[2022-01-20 16:00:30.784.527][tagset.php:158] MSG: id=1 chid=1  i=31 tagid=31
+[2022-01-20 16:00:30.784.673][tagset.php:158] MSG: id=1 chid=1  i=32 tagid=32

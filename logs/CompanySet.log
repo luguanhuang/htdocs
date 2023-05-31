@@ -1,0 +1,24 @@
+[2022-01-20 16:10:41.177][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:10:41.177.418][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['companyname','status','id'] param=php_parameter
+[2022-01-20 16:10:41.177.841][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:41.178][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:41.178.143][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:41.178.314][companyset.php:25] MSG: CompanySet: func begin  id=1
+[2022-01-20 16:10:44.708.661][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:10:44.708.97][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['companyname','status','id'] param=php_parameter
+[2022-01-20 16:10:44.709.364][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:44.709.799][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:44.709.953][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:44.710.116][companyset.php:25] MSG: CompanySet: func begin  id=1
+[2022-01-20 17:11:53.237.655][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 17:11:53.238][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['companyname','status','id'] param=php_parameter
+[2022-01-20 17:11:53.238.873][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:11:53.239.044][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:11:53.239.191][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:11:53.239.351][companyset.php:25] MSG: CompanySet: func begin  id=1
+[2022-01-21 10:27:37.305.142][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-21 10:27:37.305.528][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['companyname','status','id'] param=php_parameter
+[2022-01-21 10:27:37.305.892][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-21 10:27:37.306.056][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-21 10:27:37.306.212][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-21 10:27:37.306.384][companyset.php:25] MSG: CompanySet: func begin  id=1

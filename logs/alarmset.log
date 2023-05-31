@@ -1,0 +1,1396 @@
+[2022-01-17 12:19:43.777.494][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:19:43.777.907][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:19:43.778.666][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.778.817][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.778.961][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.104][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.245][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.387][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.527][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.669][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.81][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.779.952][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.780.093][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:43.780.232][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 12:19:43.780.375][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 12:19:43.780.51][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 12:19:43.780.854][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:19:43.781.001][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:19:43.784.117][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 12:19:43.784.346][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 12:19:43.785.328][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 12:19:43.785.718][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:19:43.785.887][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:19:43.786.08][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 12:19:57.911.757][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:19:57.912.083][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:19:57.912.816][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.912.965][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.107][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.248][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.389][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.574][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.714][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.913.861][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.914.005][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.914.186][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.914.33][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:19:57.914.474][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 12:19:57.914.624][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 12:19:57.914.768][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 12:19:57.915.121][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:19:57.915.271][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:19:57.918.479][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 12:19:57.918.709][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 12:19:57.919.66][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 12:19:57.919.994][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:19:57.920.158][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:19:57.920.328][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 12:20:16.712.92][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:20:16.713.255][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:20:16.714.044][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.214][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.359][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.648][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.792][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.714.936][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.715.079][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.715.223][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.715.367][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.715.511][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:20:16.715.653][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 12:20:16.715.799][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 12:20:16.715.938][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 12:20:16.716.286][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:20:16.716.438][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:20:16.718.87][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 12:20:16.719.092][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 12:20:16.720.107][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 12:20:16.720.438][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:20:16.720.604][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:20:16.720.786][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 12:22:39.276.406][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 12:22:39.276.746][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 12:22:39.278.066][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.259][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.406][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.55][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.695][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.839][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.278.983][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.279.127][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.279.271][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.279.415][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.279.559][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 12:22:39.279.702][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 12:22:39.279.847][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 12:22:39.279.984][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 12:22:39.280.373][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 12:22:39.280.524][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 12:22:39.283.407][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 12:22:39.283.632][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 12:22:39.284.727][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 12:22:39.285.061][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 12:22:39.285.226][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 12:22:39.285.413][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:48:15.851.178][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:48:15.851.514][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:48:15.852.782][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.852.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.105][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.249][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.394][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.572][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.748][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.853.898][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.854.043][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.854.189][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.854.334][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:48:15.854.477][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:48:15.854.625][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:48:15.854.766][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:48:15.855.193][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:48:15.855.342][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:48:15.858.583][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:48:15.858.813][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:48:15.860.549][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:48:15.860.893][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:48:15.861.052][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:48:15.861.224][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:49:55.911.982][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:49:55.912.358][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:49:55.913.746][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.004][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.192][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.377][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.561][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.743][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.914.926][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.915.108][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.915.292][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.915.476][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.915.658][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:49:55.915.84][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:49:55.916.027][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:49:55.916.205][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:49:55.916.603][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:49:55.916.792][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:49:55.920.729][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:49:55.920.999][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:49:55.922.27][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:49:55.922.674][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:49:55.922.91][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:49:55.923.13][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:50:29.943.253][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:50:29.943.65][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:50:29.944.434][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.944.626][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.944.814][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.945.011][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.945.217][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.945.416][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.945.649][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.945.844][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.946.027][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.946.212][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.946.395][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:50:29.946.579][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:50:29.946.766][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:50:29.946.943][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:50:29.947.442][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:50:29.947.636][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:50:29.951.275][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:50:29.951.543][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:50:29.952.577][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:50:29.952.951][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:50:29.953.164][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:50:29.953.402][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:51:22.142.856][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:51:22.143.244][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:51:22.144.052][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.144.269][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.144.495][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.144.682][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.144.87][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.145.057][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.145.244][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.145.475][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.145.667][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.145.855][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.146.041][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:51:22.146.221][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:51:22.146.405][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:51:22.146.582][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:51:22.146.979][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:51:22.147.168][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:51:22.152.139][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:51:22.152.419][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:51:22.153.54][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:51:22.153.87][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:51:22.154.088][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:51:22.154.32][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:55:11.154.069][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:55:11.154.453][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:55:11.155.74][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.155.936][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.085][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.231][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.382][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.537][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.686][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.839][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.156.998][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.157.152][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.157.3][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:11.157.511][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:55:11.157.675][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:55:11.157.813][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:55:11.158.233][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:55:11.158.367][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:55:11.160.974][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:55:11.161.196][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:55:11.162.508][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:55:11.162.844][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:55:11.163.005][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:55:11.163.169][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:55:30.750.702][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:55:30.751.039][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:55:30.751.777][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.751.93][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.096][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.242][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.393][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.549][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.696][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.752.841][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.753.007][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.753.198][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.753.343][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:30.753.533][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:55:30.753.913][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:55:30.754.056][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:55:30.754.418][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:55:30.754.572][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:55:30.756.852][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:55:30.757.108][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:55:30.758.202][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:55:30.758.547][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:55:30.758.715][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:55:30.758.905][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 13:55:42.289.528][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 13:55:42.289.851][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 13:55:42.290.639][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.290.791][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.290.934][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.075][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.218][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.36][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.501][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.642][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.783][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.291.925][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.292.067][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 13:55:42.292.207][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 13:55:42.292.349][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 13:55:42.292.485][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 13:55:42.292.833][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 13:55:42.292.995][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 13:55:42.295.158][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 13:55:42.295.381][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 13:55:42.296.358][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 13:55:42.296.669][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 13:55:42.296.78][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 13:55:42.296.951][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:06:54.437.517][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:06:54.437.922][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:06:54.438.853][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.439.061][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.439.254][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.439.443][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.439.633][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.439.821][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.011][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.2][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.389][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.582][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.77][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:06:54.440.998][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:06:54.441.186][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:06:54.441.369][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:06:54.441.938][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:06:54.442.143][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:06:54.443.85][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:06:54.444.107][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:06:54.445.07][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:06:54.445.368][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:06:54.445.703][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:06:54.445.925][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:21:09.907.488][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:21:09.907.849][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:21:09.909.162][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.909.376][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.909.584][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.909.734][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.909.882][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.031][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.18][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.328][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.475][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.624][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.772][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:09.910.919][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:21:09.911.066][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:21:09.911.204][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:21:09.911.571][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:21:09.911.724][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:21:09.914.79][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:21:09.914.999][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:21:09.915.974][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:21:09.916.28][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:21:09.916.464][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:21:09.916.63][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:21:41.738.041][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:21:41.738.39][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:21:41.739.134][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.739.297][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.739.44][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.739.582][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.739.724][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.739.865][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.007][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.149][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.29][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.432][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.573][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:21:41.740.714][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:21:41.740.856][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:21:41.740.992][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:21:41.741.338][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:21:41.741.538][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:21:41.743.702][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:21:41.743.945][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:21:41.745.008][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:21:41.745.359][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:21:41.745.573][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:21:41.745.766][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:32:13.508.819][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:32:13.509.215][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:32:13.510.08][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.510.299][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.510.491][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.510.68][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.510.87][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.511.06][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.511.256][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.511.499][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.511.69][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.511.88][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.512.075][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:32:13.512.267][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:32:13.512.465][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:32:13.512.647][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:32:13.513.155][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:32:13.513.352][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:32:13.515.486][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:32:13.515.789][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:32:13.517.159][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:32:13.517.61][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:32:13.517.862][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:32:13.518.086][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:34:29.276.051][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:34:29.276.428][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:34:29.277.226][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.277.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.277.704][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.278.151][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.278.338][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.278.523][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.278.706][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.278.889][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.279.072][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.279.258][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.279.443][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:29.279.627][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:34:29.279.821][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:34:29.280.007][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:34:29.280.418][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:34:29.280.615][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:34:29.282.794][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:34:29.283.121][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:34:29.284.244][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:34:29.284.834][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:34:29.285.087][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:34:29.285.329][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:34:38.911.56][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:34:38.911.923][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:34:38.912.698][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.912.887][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.913.105][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.913.288][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.913.489][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.913.671][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.913.852][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.914.043][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.914.23][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.914.412][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.914.598][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:34:38.914.779][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:34:38.914.965][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:34:38.915.146][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:34:38.915.648][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:34:38.915.848][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:34:38.918.956][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:34:38.919.201][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:34:38.920.924][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:34:38.921.237][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:34:38.921.379][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:34:38.921.57][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:35:38.195.877][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:35:38.196.218][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:35:38.196.953][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.105][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.251][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.479][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.624][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.766][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.197.907][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.198.057][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.198.201][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.198.343][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.198.485][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:38.198.626][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:35:38.198.77][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:35:38.198.906][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:35:38.199.316][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:35:38.199.468][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:35:38.203.381][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:35:38.203.616][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:35:38.204.981][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:35:38.205.325][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:35:38.205.511][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:35:38.205.68][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:35:55.635.829][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:35:55.636.185][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:35:55.636.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.637.146][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.637.328][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.637.538][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.637.721][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.637.911][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.638.098][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.638.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.638.47][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.638.657][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.638.843][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:35:55.639.029][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:35:55.639.216][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:35:55.639.396][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:35:55.639.788][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:35:55.640.025][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:35:55.642.545][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:35:55.642.811][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:35:55.643.747][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:35:55.644.12][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:35:55.644.31][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:35:55.644.495][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:36:10.780.741][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:36:10.781.13][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:36:10.781.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.782.156][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.782.339][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.782.519][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.782.7][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.782.881][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.061][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.242][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.423][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.604][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.784][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:36:10.783.964][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:36:10.784.146][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:36:10.784.324][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:36:10.784.719][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:36:10.784.906][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:36:10.787.905][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:36:10.788.149][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:36:10.788.979][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:36:10.789.299][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:36:10.789.509][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:36:10.789.709][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:37:00.164.006][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:37:00.164.39][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:37:00.165.222][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.165.416][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.165.643][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.165.824][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.014][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.197][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.377][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.559][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.74][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.166.922][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.167.104][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:37:00.167.283][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:37:00.167.466][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:37:00.167.642][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:37:00.168.131][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:37:00.168.32][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:37:00.172.348][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:37:00.172.616][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:37:00.174.335][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:37:00.174.734][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:37:00.174.949][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:37:00.175.171][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:47:34.433.423][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:47:34.433.824][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:47:34.434.345][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.434.512][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.434.635][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.434.766][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.434.891][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.435.014][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.435.135][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.435.255][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.436.619][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.436.832][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.436.986][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:47:34.437.116][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:47:34.439.979][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:47:34.440.15][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:47:34.440.48][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:47:34.440.662][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:47:34.463.121][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:47:34.463.886][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:47:34.464.848][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:47:34.465.154][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:47:34.465.309][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:47:34.465.493][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:58:44.437.512][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:58:44.437.884][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:58:44.438.662][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.438.853][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.037][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.22][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.404][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.587][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.769][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.439.951][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.440.135][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.440.32][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.440.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:58:44.440.684][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:58:44.440.868][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:58:44.441.045][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:58:44.441.46][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:58:44.441.655][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:58:44.444.438][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:58:44.444.699][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:58:44.445.811][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:58:44.446.205][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:58:44.446.431][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:58:44.446.664][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 14:59:30.269.986][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 14:59:30.270.359][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 14:59:30.271.176][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.271.373][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.271.558][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.271.74][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.271.932][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.272.119][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.272.303][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.272.494][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.272.685][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.272.879][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.273.073][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 14:59:30.273.265][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 14:59:30.273.492][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 14:59:30.273.681][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 14:59:30.274.086][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 14:59:30.274.281][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 14:59:30.276.704][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 14:59:30.276.958][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 14:59:30.278.154][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 14:59:30.278.541][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 14:59:30.278.744][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 14:59:30.278.908][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 15:01:46.391.447][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 15:01:46.391.811][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 15:01:46.392.594][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.392.785][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.392.97][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.393.155][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.393.339][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.393.572][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.393.756][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.393.941][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.394.135][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.394.36][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.394.541][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:01:46.394.725][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 15:01:46.394.909][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 15:01:46.395.092][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 15:01:46.395.503][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 15:01:46.395.719][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 15:01:46.398.359][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 15:01:46.398.631][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 15:01:46.400.315][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 15:01:46.400.705][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 15:01:46.400.906][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 15:01:46.401.119][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 15:02:57.392.81][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 15:02:57.393.175][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 15:02:57.394.005][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.394.232][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.394.426][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.394.616][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.394.806][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.003][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.203][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.391][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.574][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.758][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.395.941][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 15:02:57.396.124][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 15:02:57.396.312][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 15:02:57.396.49][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 15:02:57.396.889][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 15:02:57.397.079][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 15:02:57.401.724][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 15:02:57.402.004][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 15:02:57.403.765][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 15:02:57.404.123][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 15:02:57.404.312][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 15:02:57.404.509][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 16:04:42.282.212][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 16:04:42.282.48][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 16:04:42.282.937][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.058][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.173][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.287][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.401][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.515][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.629][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.744][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.858][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.283.973][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.284.087][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 16:04:42.284.201][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 16:04:42.284.317][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 16:04:42.284.429][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 16:04:42.284.727][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 16:04:42.284.854][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 16:04:42.285.967][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 16:04:42.286.174][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 16:04:42.286.827][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 16:04:42.287.112][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 16:04:42.287.28][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 16:04:42.287.423][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 19:39:06.582.7][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:39:06.583.047][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:39:06.584.383][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.584.613][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.584.775][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.584.925][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.074][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.258][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.404][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.588][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.734][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.585.881][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.586.026][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:39:06.586.172][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 19:39:06.586.321][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:39:06.586.461][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:39:06.586.834][Channel.php:1662] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 19:39:06.586.989][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:39:06.588.886][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:39:06.589.115][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 19:39:06.590.157][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 19:39:06.590.537][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 19:39:06.590.72][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 19:39:06.590.904][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 19:40:24.35.24][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:24.35.607][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:24.36.389][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.36.583][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.36.768][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.36.951][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.37.135][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.37.319][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.37.554][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.37.758][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.37.95][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.38.143][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.38.362][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:24.38.559][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 19:40:24.38.746][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:40:24.38.923][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:40:24.39.323][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 19:40:24.39.513][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:24.42.403][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:40:24.42.613][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-17 19:40:24.44.237][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 19:40:28.958.185][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:28.958.549][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:28.959.323][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.959.512][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.959.695][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.959.877][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.058][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.239][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.42][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.6][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.781][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.960.962][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.961.143][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:28.961.322][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 19:40:28.961.555][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:40:28.961.731][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:40:28.962.23][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 19:40:28.962.422][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:28.965.518][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:40:28.965.794][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-17 19:40:28.966.782][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 19:40:37.16.983][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:37.17.343][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:37.18.155][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.18.361][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.18.545][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.18.727][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.18.909][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.19.091][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.19.312][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.19.493][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.19.673][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.19.854][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.20.036][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:37.20.215][alarmset.php:33] MSG: alarmset: func begin1111 10
+[2022-01-17 19:40:37.20.398][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:40:37.20.58][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:40:37.21.064][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster2,1 var0=booster2 var1=1
+[2022-01-17 19:40:37.21.252][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:37.23.49][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:40:37.23.722][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster2_alaconf where chid=1
+[2022-01-17 19:40:37.24.392][IMerchantsResult.DB.php:1744] ERR: IMerchantsResult_DB::getAlarmInfo: Call DB->execute_v2 error [error msg]=Unknown column 'tagname' in 'field list'
+[2022-01-17 19:40:46.220.303][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:40:46.220.7][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:40:46.221.536][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.221.755][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.221.942][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.222.13][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.222.32][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.222.508][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.222.695][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.222.881][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.223.07][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.223.26][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.223.452][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:40:46.223.647][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 19:40:46.223.85][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:40:46.224.119][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:40:46.224.563][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 19:40:46.224.785][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:40:46.227.376][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:40:46.227.599][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-17 19:40:46.228.596][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 19:47:32.711.666][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 19:47:32.712.031][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 19:47:32.712.78][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.712.936][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.085][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.232][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.38][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.559][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.712][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.713.859][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.714.006][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.714.154][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.714.302][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 19:47:32.714.457][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 19:47:32.714.607][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 19:47:32.714.748][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 19:47:32.715.12][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 19:47:32.715.29][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 19:47:32.717.407][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 19:47:32.717.681][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-17 19:47:32.718.621][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 20:28:47.513.595][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 20:28:47.514.026][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 20:28:47.515.371][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.515.631][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.515.851][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.516.068][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.516.274][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.516.472][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.516.675][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.516.879][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.517.087][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.517.331][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.517.594][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:47.517.789][alarmset.php:33] MSG: alarmset: func begin1111 4
+[2022-01-17 20:28:47.517.988][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 20:28:47.518.175][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 20:28:47.518.766][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 20:28:47.519.531][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 20:28:47.521.988][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 20:28:47.522.181][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 20:28:47.523.061][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 20:28:47.523.308][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 20:28:47.523.439][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 20:28:47.523.575][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 20:28:49.913.627][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 20:28:49.914.012][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 20:28:49.914.807][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.002][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.189][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.381][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.576][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.775][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.915.968][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.916.163][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.916.356][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.916.553][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.916.747][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:28:49.916.94][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 20:28:49.917.135][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 20:28:49.917.323][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 20:28:49.917.844][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,3 var0=booster var1=3
+[2022-01-17 20:28:49.918.037][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 20:28:49.921.409][IMerchantsResult.DB.php:1733] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 20:28:49.921.693][IMerchantsResult.DB.php:1740] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=3
+[2022-01-17 20:28:49.923.01][IMerchantsResult.DB.php:1751] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:20:28.44.039][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:20:28.44.436][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:20:28.45.234][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.45.486][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.45.68][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.45.879][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.46.129][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.46.326][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.46.529][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.46.734][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.46.984][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.47.2][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.47.416][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:20:28.47.628][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:20:28.47.839][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:20:28.48.031][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:20:28.48.584][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:20:28.48.82][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:20:28.52.412][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:20:28.52.649][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:20:28.53.55][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:20:28.53.845][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:20:28.54.007][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:20:28.54.161][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:21:40.977.283][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:21:40.977.748][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:21:40.978.563][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.978.794][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.979.013][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.979.245][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.979.699][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.979.904][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.980.11][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.980.318][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.980.567][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.980.773][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.980.977][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:21:40.981.18][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:21:40.981.394][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:21:40.981.66][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:21:40.982.096][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:21:40.982.323][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:21:40.984.8][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:21:40.985.083][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:21:40.987.637][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:21:40.987.976][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:21:40.988.156][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:21:40.988.334][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:23:07.651.091][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:23:07.651.498][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:23:07.652.304][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.652.523][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.652.725][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.652.931][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.653.127][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.653.329][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.653.573][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.653.882][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.654.069][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.654.264][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.654.453][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:23:07.654.641][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:23:07.654.828][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:23:07.655.01][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:23:07.655.505][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:23:07.655.711][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:23:07.658.085][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:23:07.658.315][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:23:07.660.368][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:23:07.660.782][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:23:07.661.01][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:23:07.661.245][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:24:38.688.231][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:24:38.688.61][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:24:38.689.723][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.689.952][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.690.142][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.690.337][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.690.534][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.690.733][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.690.929][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.691.126][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.691.322][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.691.52][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.691.718][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:24:38.691.914][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:24:38.692.157][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:24:38.692.348][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:24:38.692.79][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:24:38.692.991][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:24:38.695.284][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:24:38.695.578][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:24:38.696.59][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:24:38.697.013][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:24:38.697.26][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:24:38.697.563][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:26:28.179.867][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:26:28.180.248][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:26:28.181.037][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.181.243][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.181.489][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.181.693][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.181.935][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.182.119][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.182.305][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.182.488][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.182.674][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.182.858][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.183.044][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:28.183.228][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:26:28.183.414][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:26:28.183.593][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:26:28.184.124][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:26:28.184.341][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:26:28.189.418][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:26:28.189.732][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:26:28.191.26][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:26:28.191.649][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:26:28.191.848][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:26:28.192.065][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-17 23:26:46.927.867][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:26:46.928.233][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:26:46.929.016][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.929.26][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.929.497][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.929.696][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.929.892][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.930.084][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.930.275][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.930.468][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.930.671][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.930.873][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.931.088][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:46.931.294][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:26:46.931.497][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:26:46.931.685][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:26:46.932.1][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-17 23:26:46.932.304][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:26:46.935.216][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:26:46.935.485][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-17 23:26:46.936.602][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:26:49.771.116][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 23:26:49.771.49][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-17 23:26:49.772.29][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.772.507][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.772.708][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.772.907][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.773.104][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.773.302][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.773.524][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.773.728][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.773.927][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.774.137][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.774.337][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 23:26:49.774.536][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-17 23:26:49.774.734][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-17 23:26:49.774.93][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-17 23:26:49.775.352][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-17 23:26:49.775.576][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 23:26:49.778.418][IMerchantsResult.DB.php:1765] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-17 23:26:49.778.714][IMerchantsResult.DB.php:1772] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-17 23:26:49.779.756][IMerchantsResult.DB.php:1783] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-17 23:26:49.780.14][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-17 23:26:49.780.341][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-17 23:26:49.780.578][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 11:08:00.946.708][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 11:08:00.947.051][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 11:08:00.948.302][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.948.474][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.948.622][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.948.802][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.948.944][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.086][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.228][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.369][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.557][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.701][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.843][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:00.949.984][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 11:08:00.950.128][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 11:08:00.950.263][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 11:08:00.950.708][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-18 11:08:00.950.867][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 11:08:00.956.967][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 11:08:00.957.181][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-18 11:08:00.958.695][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 11:08:08.712.961][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 11:08:08.713.285][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 11:08:08.714.589][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.714.769][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.714.915][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.058][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.201][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.343][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.485][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.626][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.768][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.715.91][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.716.052][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:08.716.192][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 11:08:08.716.335][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 11:08:08.716.497][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 11:08:08.716.856][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 11:08:08.717.005][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 11:08:08.721.428][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 11:08:08.721.673][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 11:08:08.723.362][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 11:08:08.723.661][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 11:08:08.723.786][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 11:08:08.723.924][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 11:08:13.374.707][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 11:08:13.374.995][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 11:08:13.375.625][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.375.753][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.375.875][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.375.996][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.118][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.24][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.36][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.481][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.602][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.723][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.844][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 11:08:13.376.964][alarmset.php:33] MSG: alarmset: func begin1111 6
+[2022-01-18 11:08:13.377.085][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 11:08:13.377.201][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 11:08:13.377.543][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,5 var0=booster var1=5
+[2022-01-18 11:08:13.377.682][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 11:08:13.380.162][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 11:08:13.380.382][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=5
+[2022-01-18 11:08:13.381.301][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 14:25:05.592.1][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 14:25:05.592.48][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 14:25:05.593.273][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.593.524][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.593.726][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.593.931][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.594.167][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.594.359][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.594.55][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.594.74][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.594.931][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.595.133][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.595.324][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:25:05.595.513][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 14:25:05.595.706][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 14:25:05.595.892][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 14:25:05.596.296][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 14:25:05.596.497][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 14:25:05.599.02][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 14:25:05.599.333][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 14:25:05.600.343][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 14:25:05.600.688][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 14:25:05.600.872][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 14:25:05.601.03][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 14:25:05.601.164][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 14:25:05.601.943][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 14:26:06.627.414][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 14:26:06.627.778][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 14:26:06.628.533][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.628.71][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.628.864][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.02][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.172][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.332][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.516][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.679][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.629.838][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.630.01][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.630.17][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:26:06.630.317][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 14:26:06.630.485][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 14:26:06.630.638][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 14:26:06.631.059][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 14:26:06.631.237][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 14:26:06.633.591][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 14:26:06.633.779][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 14:26:06.635.114][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 14:26:06.635.489][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 14:26:06.635.665][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 14:26:06.635.847][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 14:26:06.636.011][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 14:26:06.636.553][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 14:27:39.424.569][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 14:27:39.424.966][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 14:27:39.425.811][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.426.042][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.426.235][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.426.431][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.426.631][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.426.841][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.427.036][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.427.238][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.427.448][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.427.647][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.427.853][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 14:27:39.428.055][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 14:27:39.428.267][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 14:27:39.428.476][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 14:27:39.428.903][Channel.php:1663] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 14:27:39.429.121][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 14:27:39.432.027][IMerchantsResult.DB.php:1718] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 14:27:39.432.311][IMerchantsResult.DB.php:1725] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 14:27:39.433.346][IMerchantsResult.DB.php:1736] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 14:27:39.433.714][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 14:27:39.433.936][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 14:27:39.434.164][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 14:27:39.434.331][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 14:27:39.434.936][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 20:50:40.191.602][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 20:50:40.191.978][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 20:50:40.192.712][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.192.953][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.193.123][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.193.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.193.494][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.193.665][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.193.829][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.194][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.194.169][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.194.333][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.194.493][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:50:40.194.655][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 20:50:40.194.823][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 20:50:40.194.978][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 20:50:40.195.446][Channel.php:1664] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 20:50:40.195.656][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 20:50:40.198.212][IMerchantsResult.DB.php:1795] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 20:50:40.198.503][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 20:50:40.199.576][IMerchantsResult.DB.php:1813] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 20:50:40.199.961][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 20:50:40.200.175][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 20:50:40.200.398][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 20:50:40.200.589][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 20:50:40.201.212][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-18 20:52:59.345.361][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 20:52:59.345.771][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-18 20:52:59.346.554][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.346.75][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.346.935][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.347.118][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.347.302][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.347.485][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.347.711][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.347.894][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.348.075][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.348.257][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.348.439][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:52:59.348.618][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-18 20:52:59.348.8][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-18 20:52:59.348.979][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-18 20:52:59.349.513][Channel.php:1664] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-18 20:52:59.349.717][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 20:52:59.353.638][IMerchantsResult.DB.php:1795] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-18 20:52:59.353.86][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-18 20:52:59.355.568][IMerchantsResult.DB.php:1813] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-18 20:52:59.355.892][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-18 20:52:59.356.026][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-18 20:52:59.356.172][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-18 20:52:59.356.311][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-18 20:52:59.356.726][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-19 13:24:24.875.098][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 13:24:24.875.442][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-19 13:24:24.876.697][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.876.869][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.018][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.163][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.307][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.655][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.8][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.877.945][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.878.09][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.878.235][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:24.878.378][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-19 13:24:24.878.526][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-19 13:24:24.878.664][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-19 13:24:24.879.081][Channel.php:1664] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-19 13:24:24.879.234][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 13:24:24.882.823][IMerchantsResult.DB.php:1795] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-19 13:24:24.883.05][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-19 13:24:24.883.918][IMerchantsResult.DB.php:1813] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-19 13:24:24.884.253][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-19 13:24:24.884.409][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-19 13:24:24.884.527][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-19 13:24:24.884.653][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-19 13:24:24.885.263][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-19 13:24:39.439.478][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 13:24:39.439.816][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-19 13:24:39.440.555][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.440.703][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.440.847][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.440.989][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.136][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.281][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.426][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.606][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.756][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.441.902][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.442.048][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:24:39.442.191][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-19 13:24:39.442.336][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-19 13:24:39.442.476][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-19 13:24:39.442.908][Channel.php:1664] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-19 13:24:39.443.093][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 13:24:39.445.201][IMerchantsResult.DB.php:1795] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-19 13:24:39.445.475][IMerchantsResult.DB.php:1802] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-19 13:24:39.446.594][IMerchantsResult.DB.php:1813] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-19 13:24:39.446.932][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-19 13:24:39.447.096][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-19 13:24:39.447.282][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-19 13:24:39.447.443][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-19 13:24:39.448.005][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-19 13:35:23.970.686][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 13:35:23.971.043][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-19 13:35:23.972.322][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.972.494][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.972.64][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.972.782][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.972.925][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.068][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.21][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.352][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.535][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.679][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.82][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 13:35:23.973.961][alarmset.php:33] MSG: alarmset: func begin1111 32
+[2022-01-19 13:35:23.974.105][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-19 13:35:23.974.242][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-19 13:35:23.974.703][Channel.php:1664] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-19 13:35:23.974.868][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 13:35:23.980.235][IMerchantsResult.DB.php:1803] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-19 13:35:23.980.448][IMerchantsResult.DB.php:1810] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-19 13:35:23.982.086][IMerchantsResult.DB.php:1821] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-19 13:35:23.982.363][alarmset.php:139] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-19 13:35:23.982.47][alarmset.php:139] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-19 13:35:23.982.589][alarmset.php:139] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-19 13:35:23.982.697][alarmset.php:139] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-19 13:35:23.983.169][alarmset.php:139] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 10:39:15.518.956][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 10:39:15.519.311][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName= param=php_parameter
+[2022-01-20 10:39:15.519.735][alarmset.php:33] MSG: alarmset: func begin1111 
+[2022-01-20 10:39:15.519.884][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 10:39:15.520.022][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 10:39:15.520.442][Channel.php:1666] MSG: Channel::getAlarmInfo: func begin page=, var0= var1=
+[2022-01-20 10:39:15.520.594][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 10:39:15.523.593][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 10:39:15.523.829][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from _alaconf where chid=
+[2022-01-20 10:39:15.524.396][IMerchantsResult.DB.php:1837] ERR: IMerchantsResult_DB::getAlarmInfo: Call DB->execute_v2 error [error msg]=You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[2022-01-20 16:03:41.794.841][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:03:41.795.209][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 16:03:41.796.526][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.796.733][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.796.892][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.041][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.188][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.335][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.512][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.661][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.812][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.797.962][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.798.106][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:41.798.249][alarmset.php:39] MSG: alarmset: func begin1111 32
+[2022-01-20 16:03:41.798.396][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 16:03:41.798.535][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 16:03:41.798.899][Channel.php:1666] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 16:03:41.799.05][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:03:41.801.504][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 16:03:41.801.74][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-20 16:03:41.802.898][IMerchantsResult.DB.php:1844] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-20 16:03:41.803.241][alarmset.php:145] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 16:03:41.803.411][alarmset.php:145] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 16:03:41.803.6][alarmset.php:145] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 16:03:41.803.78][alarmset.php:145] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 16:03:41.804.326][alarmset.php:145] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 16:03:53.245.051][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:03:53.245.377][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 16:03:53.246.153][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.246.311][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.246.457][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.246.6][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.246.78][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.246.923][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.065][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.206][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.347][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.49][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.631][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:03:53.247.771][alarmset.php:39] MSG: alarmset: func begin1111 32
+[2022-01-20 16:03:53.247.913][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 16:03:53.248.048][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 16:03:53.248.396][Channel.php:1666] MSG: Channel::getAlarmInfo: func begin page=booster,2 var0=booster var1=2
+[2022-01-20 16:03:53.248.543][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:03:53.251.633][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 16:03:53.251.854][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=2
+[2022-01-20 16:03:53.252.908][IMerchantsResult.DB.php:1844] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-20 16:04:04.304.38][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:04:04.304.919][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 16:04:04.306.193][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.306.539][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.306.854][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.159][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.389][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.538][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.677][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.815][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.307.954][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.308.092][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.308.229][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:04.308.368][alarmset.php:39] MSG: alarmset: func begin1111 32
+[2022-01-20 16:04:04.308.512][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 16:04:04.308.647][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 16:04:04.309.041][Channel.php:1666] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 16:04:04.309.222][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:04:04.311.899][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 16:04:04.312.322][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-20 16:04:04.313.53][IMerchantsResult.DB.php:1844] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-20 16:04:04.313.926][alarmset.php:145] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 16:04:04.314.092][alarmset.php:145] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 16:04:04.314.268][alarmset.php:145] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 16:04:04.314.441][alarmset.php:145] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 16:04:04.315.04][alarmset.php:145] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 16:04:28.399.37][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:04:28.399.697][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 16:04:28.400.956][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.137][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.293][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.49][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.644][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.791][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.401.935][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.402.079][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.402.224][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.402.369][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.402.514][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:04:28.402.657][alarmset.php:39] MSG: alarmset: func begin1111 32
+[2022-01-20 16:04:28.402.803][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 16:04:28.402.94][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 16:04:28.403.297][Channel.php:1666] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 16:04:28.403.447][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:04:28.406.119][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 16:04:28.406.355][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-20 16:04:28.407.358][IMerchantsResult.DB.php:1844] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-20 16:04:28.407.731][alarmset.php:145] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 16:04:28.407.918][alarmset.php:145] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 16:04:28.408.104][alarmset.php:145] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 16:04:28.408.255][alarmset.php:145] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 16:04:28.408.82][alarmset.php:145] MSG: id=1 chid=1  i=5 tagid=5
+[2022-01-20 18:11:39.799.924][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 18:11:39.800.251][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','dtype','id','slaveid','funcode','startreg','countreg','status','groupname','stationname','companyname'] param=php_parameter
+[2022-01-20 18:11:39.801.029][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.18][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.323][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.498][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.64][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.782][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.801.932][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.802.104][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.802.252][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.802.396][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.802.556][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 18:11:39.802.697][alarmset.php:39] MSG: alarmset: func begin1111 32
+[2022-01-20 18:11:39.802.841][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Channel::getAlarmInfo
+[2022-01-20 18:11:39.802.979][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Channel method=getAlarmInfo
+[2022-01-20 18:11:39.803.506][Channel.php:1720] MSG: Channel::getAlarmInfo: func begin page=booster,1 var0=booster var1=1
+[2022-01-20 18:11:39.803.8][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 18:11:39.806.672][IMerchantsResult.DB.php:1826] MSG: IMerchantsResult_DB::getAlarmInfo: func begin
+[2022-01-20 18:11:39.806.911][IMerchantsResult.DB.php:1833] MSG: IMerchantsResult_DB::getAlarmInfo: [sql]=select chid, tagid, tagname, alarmenable,alarmontext,alarmofftext,minvalue,maxval from booster_alaconf where chid=1
+[2022-01-20 18:11:39.807.87][IMerchantsResult.DB.php:1844] MSG: IMerchantsResult_DB::getAlarmInfo: func end
+[2022-01-20 18:11:39.808.208][alarmset.php:145] MSG: id=1 chid=1  i=1 tagid=1
+[2022-01-20 18:11:39.808.365][alarmset.php:145] MSG: id=1 chid=1  i=2 tagid=2
+[2022-01-20 18:11:39.808.505][alarmset.php:145] MSG: id=1 chid=1  i=3 tagid=3
+[2022-01-20 18:11:39.808.642][alarmset.php:145] MSG: id=1 chid=1  i=4 tagid=4
+[2022-01-20 18:11:39.809.18][alarmset.php:145] MSG: id=1 chid=1  i=5 tagid=5

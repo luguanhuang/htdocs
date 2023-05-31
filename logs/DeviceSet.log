@@ -1,0 +1,656 @@
+[2022-01-18 17:54:49.478.71][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 17:54:49.479.204][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-18 17:54:49.480.614][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.480.832][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.031][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.229][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.426][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.655][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.847][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.481.99][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.147][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.294][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.438][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.577][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.723][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.482.864][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.008][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.148][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.288][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.43][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.577][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.721][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.483.864][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 17:54:49.484.007][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-18 17:54:49.484.152][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-18 17:54:49.484.291][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-18 17:54:49.484.633][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-18 17:54:49.484.792][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 17:54:49.487.086][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-18 17:54:49.492.546][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-18 17:54:49.492.809][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-18 17:54:49.494.235][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-18 17:54:49.494.515][IMerchantsResult.DB.php:664] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-18 17:54:49.494.681][IMerchantsResult.DB.php:672] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-18 17:54:49.496.074][IMerchantsResult.DB.php:684] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-18 17:54:49.496.264][IMerchantsResult.DB.php:794] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-18 17:54:49.496.425][IMerchantsResult.DB.php:802] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-18 17:54:49.498.008][IMerchantsResult.DB.php:814] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-18 17:54:49.498.227][IMerchantsResult.DB.php:378] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-18 17:54:49.498.393][IMerchantsResult.DB.php:387] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-18 17:54:49.499.256][IMerchantsResult.DB.php:398] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-18 18:44:47.451.788][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 18:44:47.452.146][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-18 18:44:47.453.524][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.453.689][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.453.841][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.453.998][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.151][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.305][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.459][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.613][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.766][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.454.92][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.075][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.229][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.383][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.538][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.693][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.846][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.455.999][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.456.154][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.456.308][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.456.461][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.456.615][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 18:44:47.456.767][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-18 18:44:47.456.922][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-18 18:44:47.457.071][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-18 18:44:47.457.497][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-18 18:44:47.457.659][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 18:44:47.461.493][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-18 18:44:47.470.713][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-18 18:44:47.470.954][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-18 18:44:47.472.145][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-18 18:44:47.472.39][IMerchantsResult.DB.php:664] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-18 18:44:47.472.54][IMerchantsResult.DB.php:672] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-18 18:44:47.473.343][IMerchantsResult.DB.php:684] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-18 18:44:47.473.532][IMerchantsResult.DB.php:794] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-18 18:44:47.473.675][IMerchantsResult.DB.php:802] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-18 18:44:47.475.043][IMerchantsResult.DB.php:814] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-18 18:44:47.475.286][IMerchantsResult.DB.php:378] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-18 18:44:47.475.424][IMerchantsResult.DB.php:387] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-18 18:44:47.476.599][IMerchantsResult.DB.php:398] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-18 20:10:18.401.519][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 20:10:18.401.898][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-18 20:10:18.403.29][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.403.492][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.403.681][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.403.874][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.404.071][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.404.268][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.404.463][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.404.663][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.404.861][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.405.056][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.405.252][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.405.476][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.405.673][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.405.874][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.406.072][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.406.265][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.406.503][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.406.704][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.407.059][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.407.388][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.407.597][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-18 20:10:18.407.796][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-18 20:10:18.407.994][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-18 20:10:18.408.184][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-18 20:10:18.408.696][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-18 20:10:18.408.898][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 20:10:18.411.422][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-18 20:10:18.414.06][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-18 20:10:18.414.348][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-18 20:10:18.415.213][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-18 20:10:18.415.482][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-18 20:10:18.415.671][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-18 20:10:18.416.61][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-18 20:10:18.416.812][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-18 20:10:18.416.939][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-18 20:10:18.418.033][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-18 20:10:18.418.308][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-18 20:10:18.418.486][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-18 20:10:18.419.307][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 15:17:09.43.665][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 15:17:09.44.009][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 15:17:09.45.335][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.45.528][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.45.676][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.45.806][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.45.931][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.05][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.168][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.316][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.432][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.548][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.664][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.78][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.46.896][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.015][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.134][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.249][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.364][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.481][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.597][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.713][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.828][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 15:17:09.47.942][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 15:17:09.48.059][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 15:17:09.48.171][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 15:17:09.48.493][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 15:17:09.48.617][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 15:17:09.51.807][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 15:17:09.62.593][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 15:17:09.62.81][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 15:17:09.63.678][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 15:17:09.63.864][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 15:17:09.63.947][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 15:17:09.64.694][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 15:17:09.64.879][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 15:17:09.64.96][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 15:17:09.66.343][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 15:17:09.66.536][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 15:17:09.66.617][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 15:17:09.67.309][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:26:55.775.179][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:26:55.775.542][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:26:55.776.929][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.086][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.23][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.371][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.555][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.698][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.84][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.777.993][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.139][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.426][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.57][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.713][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.854][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.778.997][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.138][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.281][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.424][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.565][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.707][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.847][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:26:55.779.987][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 19:26:55.780.131][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:26:55.780.266][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:26:55.780.668][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 19:26:55.780.819][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:26:55.783.392][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:26:55.794.209][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:26:55.794.406][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:26:55.795.156][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:26:55.795.335][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:26:55.795.414][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 19:26:55.796.16][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:26:55.796.371][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:26:55.796.452][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 19:26:55.797.305][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:26:55.797.503][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:26:55.797.583][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:26:55.798.469][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:32:38.444.464][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:32:38.444.811][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:32:38.446.728][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.446.929][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.086][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.237][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.39][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.543][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.697][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.447.848][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.001][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.152][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.296][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.441][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.585][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.73][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.448.873][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.017][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.161][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.307][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.483][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.636][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.449.781][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:38.450.02][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 19:32:38.450.129][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:32:38.450.23][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:32:38.450.574][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 19:32:38.450.687][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:32:38.453.495][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:32:38.462.604][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:32:38.462.832][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:32:38.463.482][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:32:38.463.676][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:32:38.463.784][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 19:32:38.464.431][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:32:38.464.619][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:32:38.464.728][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 19:32:38.465.565][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:32:38.465.769][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:32:38.465.879][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:32:38.466.565][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:32:44.171.014][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:32:44.171.359][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:32:44.172.706][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.172.858][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.002][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.144][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.287][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.428][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.605][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.747][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.173.89][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.036][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.187][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.329][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.47][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.612][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.754][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.174.895][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.037][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.18][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.357][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.499][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.64][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:44.175.78][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 19:32:44.175.924][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:32:44.176.06][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:32:44.176.406][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 19:32:44.176.555][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:32:44.179.369][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:32:44.181.738][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:32:44.181.963][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:32:44.182.84][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:32:44.183.052][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:32:44.183.186][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 19:32:44.184.025][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:32:44.184.234][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:32:44.184.369][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 19:32:44.185.325][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:32:44.185.586][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:32:44.185.721][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:32:44.186.729][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:32:49.621.764][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:32:49.622.094][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:32:49.623.418][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.623.57][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.623.714][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.623.856][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.623.999][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.14][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.281][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.423][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.612][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.755][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.624.897][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.039][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.181][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.322][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.488][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.633][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.815][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.625.967][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.626.115][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.626.261][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.626.412][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:32:49.626.559][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 19:32:49.626.714][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:32:49.626.863][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:32:49.627.292][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 19:32:49.627.453][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:32:49.629.494][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:32:49.642.602][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:32:49.642.824][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:32:49.643.585][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:32:49.643.787][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:32:49.643.908][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 19:32:49.644.673][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:32:49.644.877][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:32:49.645][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 19:32:49.646.056][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:32:49.646.226][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:32:49.646.358][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:32:49.647.549][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:41:06.296.488][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:41:06.296.843][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:41:06.298.267][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.298.453][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.298.607][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.298.758][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.298.904][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.046][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.188][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.33][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.472][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.614][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.756][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.299.897][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.04][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.182][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.324][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.466][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.608][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.751][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.300.893][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.301.034][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.301.175][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:06.301.315][deviceset.php:58] MSG: DeviceSet: func begin1111 1
+[2022-01-19 19:41:06.301.491][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:41:06.301.628][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:41:06.302.043][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-19 19:41:06.302.202][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:41:06.304.432][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:41:06.311.293][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:41:06.311.481][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:41:06.312.24][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:41:06.312.393][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:41:06.312.473][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-19 19:41:06.313.052][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:41:06.313.268][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:41:06.313.495][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-19 19:41:06.314.633][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:41:06.314.853][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:41:06.314.988][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:41:06.315.614][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:41:16.566.015][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:41:16.566.354][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:41:16.567.701][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.567.876][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.025][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.172][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.321][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.47][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.62][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.765][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.568.91][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.056][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.202][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.347][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.515][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.66][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.806][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.569.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.1][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.243][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.385][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.526][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.668][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:41:16.570.808][deviceset.php:58] MSG: DeviceSet: func begin1111 2
+[2022-01-19 19:41:16.570.953][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:41:16.571.09][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:41:16.571.495][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=2,2 var0=2 var1=2
+[2022-01-19 19:41:16.571.643][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:41:16.574.065][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:41:16.578.583][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:41:16.578.779][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:41:16.579.56][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:41:16.579.743][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:41:16.579.822][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=2
+[2022-01-19 19:41:16.580.595][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:41:16.580.78][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:41:16.580.859][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='2' and group_id='2'
+[2022-01-19 19:41:16.581.532][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:41:16.581.692][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:41:16.581.771][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:41:16.582.644][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-19 19:43:59.96.526][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-19 19:43:59.96.877][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-19 19:43:59.98.271][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.98.477][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.98.624][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.98.773][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.98.923][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.074][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.223][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.368][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.512][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.657][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.801][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.99.946][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.091][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.235][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.379][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.524][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.668][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.813][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.100.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.101.101][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.101.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-19 19:43:59.101.425][deviceset.php:58] MSG: DeviceSet: func begin1111 2
+[2022-01-19 19:43:59.101.599][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-19 19:43:59.101.736][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-19 19:43:59.102.069][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=2,2 var0=2 var1=2
+[2022-01-19 19:43:59.102.185][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-19 19:43:59.105.256][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-19 19:43:59.109.323][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-19 19:43:59.109.535][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-19 19:43:59.110.54][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-19 19:43:59.110.761][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-19 19:43:59.110.897][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=2
+[2022-01-19 19:43:59.111.662][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-19 19:43:59.111.872][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-19 19:43:59.112.006][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='2' and group_id='2'
+[2022-01-19 19:43:59.112.921][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-19 19:43:59.113.134][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-19 19:43:59.113.268][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-19 19:43:59.114.224][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 16:08:43.323.645][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:08:43.323.974][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-20 16:08:43.325.407][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.325.605][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.325.751][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.325.897][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.05][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.198][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.342][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.487][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.631][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.776][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.326.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.098][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.239][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.38][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.521][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.662][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.803][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.327.946][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.328.087][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.328.232][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.328.376][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:08:43.328.515][deviceset.php:64] MSG: DeviceSet: func begin1111 2
+[2022-01-20 16:08:43.328.658][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-20 16:08:43.328.793][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-20 16:08:43.329.156][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=2,2 var0=2 var1=2
+[2022-01-20 16:08:43.329.307][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:08:43.332.669][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 16:08:43.346.761][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 16:08:43.346.977][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 16:08:43.347.724][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 16:08:43.347.929][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 16:08:43.348.056][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=2
+[2022-01-20 16:08:43.348.849][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 16:08:43.349.06][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 16:08:43.349.187][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='2' and group_id='2'
+[2022-01-20 16:08:43.350.184][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 16:08:43.350.404][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 16:08:43.350.554][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 16:08:43.351.293][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 16:10:31.582.717][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:10:31.583.023][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-20 16:10:31.584.311][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.584.458][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.584.594][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.584.728][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.584.862][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.584.997][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.131][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.266][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.4][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.561][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.695][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.829][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.585.965][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.107][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.242][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.376][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.51][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.646][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.78][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.586.914][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.587.048][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:31.587.181][deviceset.php:64] MSG: DeviceSet: func begin1111 1
+[2022-01-20 16:10:31.587.317][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-20 16:10:31.587.449][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-20 16:10:31.587.99][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-20 16:10:31.588.263][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:10:31.590.845][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 16:10:31.603.451][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 16:10:31.603.67][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 16:10:31.604.477][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 16:10:31.604.673][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 16:10:31.604.773][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-20 16:10:31.605.724][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 16:10:31.605.946][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 16:10:31.606.05][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-20 16:10:31.607.395][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 16:10:31.607.569][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 16:10:31.607.657][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 16:10:31.608.422][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 16:10:35.699.02][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:10:35.699.326][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-20 16:10:35.700.664][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.700.83][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.700.978][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.126][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.277][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.422][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.606][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.75][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.701.893][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.035][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.177][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.318][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.46][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.602][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.744][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.702.886][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.028][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.172][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.314][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.456][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.597][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:10:35.703.736][deviceset.php:64] MSG: DeviceSet: func begin1111 1
+[2022-01-20 16:10:35.703.879][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-20 16:10:35.704.015][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-20 16:10:35.704.357][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-20 16:10:35.704.507][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:10:35.707.61][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 16:10:35.710.389][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 16:10:35.710.654][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 16:10:35.711.774][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 16:10:35.711.989][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 16:10:35.712.123][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-20 16:10:35.712.974][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 16:10:35.713.186][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 16:10:35.713.322][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-20 16:10:35.714.634][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 16:10:35.714.86][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 16:10:35.714.994][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 16:10:35.715.773][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 16:34:53.555.256][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:34:53.555.592][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-20 16:34:53.556.957][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.118][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.269][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.419][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.62][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.772][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.557.928][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.075][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.219][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.364][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.508][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.652][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.796][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.558.94][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.084][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.229][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.373][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.518][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.662][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.807][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.559.951][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 16:34:53.560.133][deviceset.php:64] MSG: DeviceSet: func begin1111 1
+[2022-01-20 16:34:53.560.278][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-20 16:34:53.560.415][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-20 16:34:53.560.809][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-20 16:34:53.560.959][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:34:53.563.877][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 16:34:53.574.556][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 16:34:53.574.769][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 16:34:53.575.714][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 16:34:53.575.896][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 16:34:53.575.98][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-20 16:34:53.576.666][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 16:34:53.576.878][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 16:34:53.577][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-20 16:34:53.578.123][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 16:34:53.578.334][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 16:34:53.578.456][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 16:34:53.579.138][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 17:49:24.121.478][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 17:49:24.121.841][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['devname','status','id','companyname','macid','ptype','servip','servport','retry','timeout','polltime','groupname','stationname','socktype','devicedesc','templatelocation','pic1filelocation','pic2filelocation','pic3filelocation','pic4filelocation','mainpagediv'] param=php_parameter
+[2022-01-20 17:49:24.123.185][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.123.339][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.123.486][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.123.629][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.123.776][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.123.92][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.064][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.208][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.351][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.496][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.639][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.821][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.124.964][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.109][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.251][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.393][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.573][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.717][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.125.963][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.126.094][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.126.221][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 17:49:24.126.348][deviceset.php:64] MSG: DeviceSet: func begin1111 1
+[2022-01-20 17:49:24.126.478][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Station::getStationCompAllInfo
+[2022-01-20 17:49:24.126.601][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Station method=getStationCompAllInfo
+[2022-01-20 17:49:24.126.956][Station.php:95] MSG: Station::getStationCompAllInfo: func begin page=1,1 var0=1 var1=1
+[2022-01-20 17:49:24.127.091][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 17:49:24.129.287][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 17:49:24.134.288][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 17:49:24.134.532][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 17:49:24.135.375][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 17:49:24.135.596][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 17:49:24.135.73][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-20 17:49:24.136.59][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 17:49:24.136.801][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 17:49:24.136.937][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-20 17:49:24.138.116][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 17:49:24.138.337][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 17:49:24.138.471][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 17:49:24.139.249][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end

@@ -1,0 +1,675 @@
+182
+<?php
+require_once dirname(__FILE__).'/cfg/database_config.php';
+require_once dirname(__FILE__).'/../common/database_module.php';
+
+class IMerchantsResult_DB 
+{
+	 var $DB;
+   function __construct()
+   {
+   		 $num  = func_num_args();  
+   		 if (0 == $num)
+   		 {
+   		 		//TLOG_MSG("IMerchantsResult_DB::__construct: [num]=".$num." [MODE]=".$MODE); 
+   		 		$this->DB = new DataBase();
+   		 }
+   		 else if (1 == $num)
+   		 {
+   		 		//TLOG_MSG("IMerchantsResult_DB::__construct: param is more than zero [num]=".$num." [MODE]=".MODE); 
+   		 		/*TLOG_MSG("IMerchantsResult_DB::__construct: param is more than zero [SHOW_DEAL_DATABASE_NAME]=".SHOW_DEAL_DATABASE_NAME. \
+   		 		" [SHOW_DEAL_DATABASE_IP]=".SHOW_DEAL_DATABASE_IP." [SHOW_DEAL_DATABASE_USER]=".SHOW_DEAL_DATABASE_USER. \
+   		 		" [SHOW_DEAL_DATABASE_PASSWORD]=".SHOW_DEAL_DATABASE_PASSWORD." [SHOW_DEAL_DATABASE_CHARSET]=".SHOW_DEAL_DATABASE_CHARSET);*/ 
+   		 		$this->DB = new DataBase(SHOW_DEAL_DATABASE_NAME, SHOW_DEAL_DATABASE_IP, SHOW_DEAL_DATABASE_USER, SHOW_DEAL_DATABASE_PASSWORD, SHOW_DEAL_DATABASE_CHARSET);
+   		 }
+   }
+    
+   function GetSql($field, $val, $range)
+   {
+   		static $bHaveSql = 0; 
+   		
+   		if ("" != $val)
+   		{
+   			if ("" == $range)
+   			{
+   				if (0 == $bHaveSql)
+		  		{
+		  			$totalSql = " where ".$field."=".$val;
+		  			$bHaveSql = 1;
+		  			return $totalSql;
+		  		}
+		  		else
+		  		{
+		  				$totalSql = " and ".$field."=".$val;
+		  				return $totalSql;
+		  		}
+   			}
+   			else
+   			{
+	   				if (">=" == $range)
+	   				{
+	   						if (0 == $bHaveSql)
+					  		{
+					  			$totalSql = " where ".$field.">="."'".$val."'";
+					  			$bHaveSql = 1;
+					  			return $totalSql;
+					  		}
+					  		else
+					  		{
+					  				$totalSql = " and ".$field.">="."'".$val."'";
+					  				return $totalSql;
+					  		}
+	   				}
+	   				else if ("<=" == $range)
+	   				{
+	   						if (0 == $bHaveSql)
+					  		{
+					  			$totalSql = " where ".$field."<="."'".$val."'";
+					  			$bHaveSql = 1;
+					  			return $totalSql;
+					  		}
+					  		else
+					  		{
+					  				$totalSql = " and ".$field."<="."'".$val."'";
+					  				return $totalSql;
+					  		}
+	   				}
+	   				else if ("in" == $range)
+	   				{
+	   						if (0 == $bHaveSql)
+					  		{
+					  			$totalSql = " where ".$field." in".$val;
+					  			$bHaveSql = 1;
+					  			return $totalSql;
+					  		}
+					  		else
+					  		{
+					  				$totalSql = " and ".$field." in".$val;
+					  				return $totalSql;
+					  		}
+	   				}
+   			}
+   			
+   		} 
+   } 
+    
+   function getCommInfo($dealId, $tradeId, $sellerUin, $buyerUin)
+   {
+   		TLOG_MSG("IMerchantsResult_DB::getCommInfo: func begin"); 
+   		//$tbIndex = ($sellerUin) % 1000;
+   		$tbIndex = $sellerUin - intval($sellerUin / 1000) * 1000;
+   		$tbIndex = sprintf("%03d", $tbIndex);
+   		
+   		TLOG_MSG("IMerchantsResult_DB::getCommInfo: [sellerUin]=".$sellerUin." [index]=".$tbIndex); 
+   		/*$totalSql = "select deal_id, FCommodityId, fdsr1, fdsr2, fdsr3, buyer_explain, buyer_evaltime, buyer_evallevel, commodity_title, commodity_logo from t_evaluation_ref_seller_".$tbIndex." where FDealId=".$dealId." and ftradeid=".$tradeId." and seller_uin=".$sellerUin \
+   		." and buyer_uin=".$buyerUin;*/
+   		
+   		mysql_query("set names latin1");
+   		
+   		$totalSql = "select trade_id, deal_id, CommodityId, fdsr1, fdsr2, fdsr3, buyer_explain, buyer_evaltime, buyer_evallevel, commodity_title, commodity_logo from t_evaluation_ref_seller_".$tbIndex." where FDealId=".$tradeId;
+   		TLOG_MSG("IMerchantsResult_DB::getCommInfo: [sql]=".$totalSql); 
+   		
+   		$ret = $this->DB->execute_v2($totalSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::getCommInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::getCommInfo: func end");  
+	     return $returnArray;
+   }
+    
+   function getSellerReply($sellerUin, $dealId)
+   {
+   		TLOG_MSG("IMerchantsResult_DB::getSellerReply: func begin"); 
+   		$tbIndex = $sellerUin - intval($sellerUin / 128) * 128;
+   		$tbIndex = sprintf("%03d", $tbIndex);
+   		TLOG_MSG("IMerchantsResult_DB::getCommInfo: [sellerUin]=".$sellerUin." [index]=".$tbIndex); 
+   		$totalSql = "select FUin, FContent, FROM_UNIXTIME(FLastUpdateTime) as FLastUpdateTime from t_evalreply_".$tbIndex." where FDealId=".$dealId." and FUin=".$sellerUin;
+   		TLOG_MSG("IMerchantsResult_DB::getSellerReply: [sql]=".$totalSql); 
+   		
+   		$ret = $this->DB->execute_v2($totalSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::getCommInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+   		
+   		$returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::getSellerReply: func end");  
+	     return $returnArray;
+   }
+    
+   function getShaidanImage($sellerUin, $sid, $picNum)
+   {
+   		TLOG_MSG("IMerchantsResult_DB::getShaidanImage: func begin"); 
+   		$tbIndex = $sellerUin - intval($sellerUin / 100) * 100;
+   		$tbIndex = sprintf("%02d", $tbIndex);
+   		TLOG_MSG("IMerchantsResult_DB::getShaidanImage: [sellerUin]=".$sellerUin." [index]=".$tbIndex); 
+   		
+   		
+   		$totalSql = "select url2 , url from shaidan_photo_".$tbIndex." where sid=".$sid." and sort<".$picNum." order by sort";
+   		TLOG_MSG("IMerchantsResult_DB::getShaidanImage: [sql]=".$totalSql); 
+   		
+   		$ret = $this->DB->execute_v2($totalSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::getShaidanImage: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+   		
+   		$returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::getShaidanImage: func end");  
+	     return $returnArray;
+   }
+    
+   function updateShenheStatus($queryInfoArray, $person)
+   {
+   		TLOG_MSG("IMerchantsResult_DB::updateShenheStatus: func begin");
+   		$returnArray = array("result"=>0, 
+                            "sErrMsg"=>"");
+   		  
+   		/*$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'" \
+   		." where sid=".$queryInfoArray["sid"];*/
+   		          
+   		  if ('4' == $queryInfoArray["shenheRes"])
+   		 	{
+   		 		/*$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'"
+   					.", lasttime='".$queryInfoArray["curTime"]."' where sid=".$queryInfoArray["sid"];		*/
+   					
+   					$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'"
+   					.", lasttime='".$queryInfoArray["curTime"]."', ftrade_id='".$queryInfoArray["realSubdealid"]."', faudit_person='".$queryInfoArray["userName"]."' where id=".$queryInfoArray["notRealSid"];		
+   		 	}
+   		 	else if ('5' == $queryInfoArray["shenheRes"])
+   		 	{
+   		 			$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'"
+   					.", lasttime='".$queryInfoArray["curTime"]."', ftrade_id='".$queryInfoArray["realSubdealid"]."', faudit_person='".$queryInfoArray["userName"]."', isSndTip=0 where id=".$queryInfoArray["notRealSid"];		
+   		 	}
+   			
+   		TLOG_MSG("IMerchantsResult_DB::updateShenheStatus: [sql]=".$totalSql); 
+   		$ret = $this->DB->execute_v2($totalSql, 'update');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::updateShenheStatus: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+   		
+   		return $returnArray;
+   } 
+   
+   function updateShaidanInfo($queryInfoArray)
+   {
+   		TLOG_MSG("IMerchantsResult_DB::updateShaidanInfo: func begin");
+   		
+   		$tbIndex = $queryInfoArray["sellerUin"] - intval($queryInfoArray["sellerUin"] / 100) * 100;
+   		$tbIndex = sprintf("%02d", $tbIndex);
+   		
+   		$returnArray = array("result"=>0, 
+                            "sErrMsg"=>"");
+                            
+   		$totalSql = "update shaidan_".$tbIndex." set state=".$queryInfoArray["shenheRes"].", lasttime=".$queryInfoArray["curTime"]." where id=".$queryInfoArray["sid"];
+   		TLOG_MSG("IMerchantsResult_DB::updateShaidanInfo: [sql]=".$totalSql); 
+   		
+   		/*$ret = $this->DB->execute_v2($totalSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::getCommInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+                            
+   		$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'" \
+   		." where sid=".$queryInfoArray["sid"];
+   		
+   			$totalSql = "update shaidan_shenhe set commit_state=".$queryInfoArray["shenheRes"].", reason='".$queryInfoArray["rejectDesc"]."'"
+   		.", lasttime='".$queryInfoArray["curTime"]."' where sid=".$queryInfoArray["sid"];
+   		
+   		TLOG_MSG("IMerchantsResult_DB::updateShenheStatus: [sql]=".$totalSql); 
+   		$ret = $this->DB->execute_v2($totalSql, 'update');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::updateShenheStatus: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }*/
+   		
+   		//return $returnArray;
+   } 
+   
+   function BatchUpdateAuditNotPassStatus($arrSid, $aReason, $aTradeId, $curTime, $person)
+   	{
+   		TLOG_MSG("IMerchantsResult_DB::BatchUpdateAuditNotPassStatus: func begin");
+   		$returnArray = array("result"=>0, 
+                            "sErrMsg"=>"");
+   		  
+   		for ($i=0; $i<count($arrSid); $i++)
+   		{
+	   			$totalSql = "update shaidan_shenhe set commit_state=5, reason='".$aReason[$i]."'"
+	   			.", lasttime='".$curTime."', ftrade_id='".$aTradeId[$i]."', faudit_person='".$person."', isSndTip=0 where id=".$arrSid[$i];		
+   				//$sql = "update shaidan_shenhe set commit_state=5, lasttime='".$curTime."'"." where sid in".$arrSid;
+		   		TLOG_MSG("IMerchantsResult_DB::BatchUpdateAuditNotPassStatus: [sql]=".$totalSql); 
+		   		$ret = $this->DB->execute_v2($totalSql, 'update');
+		    	 if ($ret["result"] != 0)
+			     {
+			     		 TLOG_ERR("IMerchantsResult_DB::BatchUpdateAuditNotPassStatus: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+			         $returnArray["result"] = $ret["result"];
+			         $returnArray["sErrMsg"] = $ret["errorMsg"];
+			         //return $returnArray;  
+			     }
+   		}
+   		  
+   		return $returnArray;
+   		
+   		/*$sql = "update shaidan_shenhe set commit_state=4, lasttime='".$curTime."'"." where sid in".$arrSid;
+   		TLOG_MSG("IMerchantsResult_DB::BatchUpdateAuditNotPassStatus: [sql]=".$sql); 
+   		$ret = $this->DB->execute_v2($sql, 'update');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::BatchUpdateAuditNotPassStatus: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+   		
+   		return $returnArray;*/
+   	} 
+   
+    function BatchUpdateAuditStatus($arrSid, $curTime, $person)
+   	{
+   		TLOG_MSG("IMerchantsResult_DB::BatchUpdateAuditStatus: func begin");
+   		$returnArray = array("result"=>0, 
+                            "sErrMsg"=>"");
+   		  
+   		//$sql = "update shaidan_shenhe set commit_state=4, lasttime='".$curTime."'"." where sid in".$arrSid;
+   		$sql = "update shaidan_shenhe set commit_state=4, lasttime='".$curTime."', faudit_person='".$person."' where sid in".$arrSid;
+   		TLOG_MSG("IMerchantsResult_DB::BatchUpdateAuditStatus: [sql]=".$sql); 
+   		$ret = $this->DB->execute_v2($sql, 'update');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::BatchUpdateAuditStatus: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+   		
+   		return $returnArray;
+   	} 
+   
+   function GetCommSql($commId, $flg)
+   {
+   		if (0 == $flg)
+   		{
+   				if ("" != $commId)
+		   		{
+		   				$sql = " where commid=CONV(SUBSTR('".$commId."', 17, 16), 16, 10)";
+		   				TLOG_MSG("IMerchantsResult_DB::GetCommSql: [sql]=".$sql);
+		   				return $sql;
+		   		}
+   		}
+   		else if (1 == $flg)
+   		{
+   				if ("" != $commId)
+		   		{
+		   				$sql = " and commid=CONV(SUBSTR('".$commId."', 17, 16), 16, 10)";
+		   				TLOG_MSG("IMerchantsResult_DB::GetCommSql: [sql]=".$sql);
+		   				return $sql;
+		   		}	
+   		}
+   }
+   
+   function searchShaidanInfo($queryInfoArray)
+    {
+    	TLOG_MSG("IMerchantsResult_DB::searchShaidanInfo: func begin");  
+    	//$totalSql = "select sid, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin from shaidan_shenhe";
+    	$totalSql = "";
+    	$bHaveSql = 0;
+    	
+    	$actualSql = "select id, sid, photonum, commit_state, lasttime, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin, reason, faudit_person from shaidan_shenhe ";
+    	$actualCntSql = "select count(*) as count from shaidan_shenhe ";
+    	
+    	$totalSql = $totalSql.$this->GetSql("fdealid", $queryInfoArray["deal_id"], "");
+    	//$totalSql = $totalSql.$this->GetSql("commid", $queryInfoArray["seller_comm_id"], "");
+    	$totalSql = $totalSql.$this->GetSql("buyeruin", $queryInfoArray["buyer_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("selleruin", $queryInfoArray["seller_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_end_time"], "<=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_end_time"], "<=");
+    	
+    	if ("0" != $queryInfoArray["evaluationState"])
+    	{
+    		$totalSql = $totalSql.$this->GetSql("evallevel", $queryInfoArray["evaluationState"], "");
+    	}
+    	
+    	if ("0" != $queryInfoArray["check_result"])
+    	{
+    		if (10 == $queryInfoArray["check_result"])
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", "(4, 5)", "in");
+    		}
+    		else
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", $queryInfoArray["check_result"], "");
+    		}
+    	}
+    	
+    	if (false == strpos($totalSql, "where"))
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 0);
+    	}
+    	else
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 1);	
+    	}
+    	
+    	$actualSql = $actualSql.$totalSql;
+    	$actualCntSql = $actualCntSql.$totalSql;
+    	
+    	$returnArray = array("result"=>0, 
+                            "data_list"=>array(),
+                            "totalNum"=>0,
+                            "sErrMsg"=>"");
+    	
+    	$returnArray["totalNum"] = $this->queryCount($actualCntSql);
+    	TLOG_MSG("IMerchantsResult_DB::searchShaidanInfo: [actual cnt sql]=".$actualCntSql." [num]=".$returnArray["totalNum"]); 
+    	if ("0" == $returnArray["totalNum"])
+    	{
+    			return $returnArray;
+    	}
+    	
+    	
+    	$page = $queryInfoArray["page"];
+    	$pageSize = $queryInfoArray["pageSize"];
+    	$numFrom = $pageSize * ($page - 1);
+    	
+    	$actualSql = $actualSql." order by createtime limit $numFrom, $pageSize";
+    	
+    	TLOG_MSG("IMerchantsResult_DB::searchShaidanInfo: [numFrom]=".$numFrom." [pageSize]=".$pageSize); 
+    	TLOG_MSG("IMerchantsResult_DB::searchShaidanInfo: [comm sql]=".$actualSql); 
+    	
+    	$ret = $this->DB->execute_v2($actualSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::searchShaidanInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::searchShaidanInfo: func end");  
+	     return $returnArray;
+    }
+    
+     function searchUpDealInfo()
+    {
+    	TLOG_MSG("IMerchantsResult_DB::searchUpDealInfo: func begin");  
+    	//$totalSql = "select sid, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin from shaidan_shenhe";
+    	$totalSql = "";
+    	$bHaveSql = 0;
+    	
+    	$actualSql = "select id, sid, photonum, commit_state, lasttime, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin, reason from shaidan_shenhe ";
+    	TLOG_MSG("IMerchantsResult_DB::searchUpDealInfo: [actualSql]=".$actualSql); 
+    	
+    	$ret = $this->DB->execute_v2($actualSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::searchUpDealInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::searchUpDealInfo: func end");  
+	     return $returnArray;
+    }
+    
+    function UpShowdealTradeInfo($id, $tradeId)
+    {
+    	TLOG_MSG("IMerchantsResult_DB::UpShowdealTradeInfo: func begin");  
+    	//$totalSql = "select sid, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin from shaidan_shenhe";
+    	$returnArray = array("result"=>0, 
+                            "sErrMsg"=>"");
+    	
+    	$totalSql = "";
+    	$bHaveSql = 0;
+    	
+    	$actualSql = "update shaidan_shenhe  set ftrade_id='".$tradeId."' where id=".$id;
+    	TLOG_MSG("IMerchantsResult_DB::UpShowdealTradeInfo: [actualSql]=".$actualSql); 
+    	
+    	$ret = $this->DB->execute_v2($actualSql, 'update');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::UpShowdealTradeInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     TLOG_MSG("IMerchantsResult_DB::UpShowdealTradeInfo: func end");  
+	     return $returnArray;
+    }
+    
+    function GetSameDealInfo($arrDealId)
+    {
+    		TLOG_MSG("IMerchantsResult_DB::GetSameDealInfo: func begin"); 
+    		$returnArray = array("result"=>0, 
+                            "data_list"=>array(),
+                            "totalNum"=>0,
+                            "sErrMsg"=>"");
+    		
+				$actualSql = "select fdealid, subdealid from shaidan_shenhe where subdealid in$arrDealId and commit_state=3";    
+				TLOG_MSG("IMerchantsResult_DB::GetSameDealInfo: [sql]=".$actualSql); 
+				$ret = $this->DB->execute_v2($actualSql, 'SELECT');
+	    	 if ($ret["result"] != 0)
+		     {
+		     		 TLOG_ERR("IMerchantsResult_DB::GetSameDealInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+		         $returnArray["result"] = $ret["result"];
+		         $returnArray["sErrMsg"] = $ret["errorMsg"];
+		         return $returnArray;  
+		     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::GetSameDealInfo: func end");  
+	     return $returnArray;
+    }
+    
+     function SearchAuditShowDealInfo($queryInfoArray)
+    {
+    	TLOG_MSG("IMerchantsResult_DB::SearchAuditShowDealInfo: func begin");  
+    	//$totalSql = "select sid, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin from shaidan_shenhe";
+    	$totalSql = "";
+    	$bHaveSql = 0;
+    	
+    	$actualSql = "select id, sid, photonum, commit_state, lasttime, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin, reason, faudit_person from shaidan_shenhe ";
+    	$actualCntSql = "select count(*) as count from shaidan_shenhe ";
+    	
+    	$totalSql = $totalSql.$this->GetSql("fdealid", $queryInfoArray["deal_id"], "");
+    	//$totalSql = $totalSql.$this->GetSql("commid", $queryInfoArray["seller_comm_id"], "");
+    	$totalSql = $totalSql.$this->GetSql("buyeruin", $queryInfoArray["buyer_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("selleruin", $queryInfoArray["seller_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_end_time"], "<=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_end_time"], "<=");
+    	
+    	if ("0" != $queryInfoArray["evaluationState"])
+    	{
+    		$totalSql = $totalSql.$this->GetSql("evallevel", $queryInfoArray["evaluationState"], "");
+    	}
+    	
+    	if ("0" != $queryInfoArray["check_result"])
+    	{
+    		if (10 == $queryInfoArray["check_result"])
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", "(4, 5)", "in");
+    		}
+    		else
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", $queryInfoArray["check_result"], "");
+    		}
+    	}
+    	
+    	if (false == strpos($totalSql, "where"))
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 0);
+    	}
+    	else
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 1);	
+    	}
+    	
+    	$actualSql = $actualSql.$totalSql;
+    	$actualCntSql = $actualCntSql.$totalSql;
+    	
+    	$returnArray = array("result"=>0, 
+                            "data_list"=>array(),
+                            "totalNum"=>0,
+                            "sErrMsg"=>"");
+    	
+    	$returnArray["totalNum"] = $this->queryCount($actualCntSql);
+    	TLOG_MSG("IMerchantsResult_DB::SearchAuditShowDealInfo: [actual cnt sql]=".$actualCntSql." [num]=".$returnArray["totalNum"]); 
+    	if ("0" == $returnArray["totalNum"])
+    	{
+    			return $returnArray;
+    	}
+    	
+    	
+    	$page = $queryInfoArray["page"];
+    	$pageSize = $queryInfoArray["pageSize"];
+    	$numFrom = $pageSize * ($page - 1);
+    	
+    	$actualSql = $actualSql." order by createtime desc limit $numFrom, $pageSize";
+    	
+    	TLOG_MSG("IMerchantsResult_DB::SearchAuditShowDealInfo: [numFrom]=".$numFrom." [pageSize]=".$pageSize); 
+    	TLOG_MSG("IMerchantsResult_DB::SearchAuditShowDealInfo: [comm sql]=".$actualSql); 
+    	
+    	$ret = $this->DB->execute_v2($actualSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::SearchAuditShowDealInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::SearchAuditShowDealInfo: func end");  
+	     return $returnArray;
+    }
+    
+     function SearchForAuditShowDealInfo($queryInfoArray)
+    {
+    	TLOG_MSG("IMerchantsResult_DB::SearchForAuditShowDealInfo: func begin");  
+    	//$totalSql = "select sid, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin from shaidan_shenhe";
+    	$totalSql = "";
+    	$bHaveSql = 0;
+    	
+    	$actualSql = "select id, sid, photonum, commit_state, lasttime, createtime, evallevel, fdealid, subdealid, buyeruin, selleruin, reason from shaidan_shenhe ";
+    	$actualCntSql = "select count(*) as count from shaidan_shenhe ";
+    	
+    	$totalSql = $totalSql.$this->GetSql("fdealid", $queryInfoArray["deal_id"], "");
+    	//$totalSql = $totalSql.$this->GetSql("commid", $queryInfoArray["seller_comm_id"], "");
+    	$totalSql = $totalSql.$this->GetSql("buyeruin", $queryInfoArray["buyer_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("selleruin", $queryInfoArray["seller_qq"], "");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("evaltime", $queryInfoArray["buyer_evalu_end_time"], "<=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_begin_time"], ">=");
+    	$totalSql = $totalSql.$this->GetSql("createtime", $queryInfoArray["buyer_showdeal_end_time"], "<=");
+    	
+    	if ("0" != $queryInfoArray["evaluationState"])
+    	{
+    		$totalSql = $totalSql.$this->GetSql("evallevel", $queryInfoArray["evaluationState"], "");
+    	}
+    	
+    	if ("0" != $queryInfoArray["check_result"])
+    	{
+    		if (10 == $queryInfoArray["check_result"])
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", "(4, 5)", "in");
+    		}
+    		else
+    		{
+    				$totalSql = $totalSql.$this->GetSql("commit_state", $queryInfoArray["check_result"], "");
+    		}
+    	}
+    	
+    	if (false == strpos($totalSql, "where"))
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 0);
+    	}
+    	else
+    	{
+    			$totalSql = $totalSql.$this->GetCommSql($queryInfoArray["seller_comm_id"], 1);	
+    	}
+    	
+    	$actualSql = $actualSql.$totalSql;
+    	$actualCntSql = $actualCntSql.$totalSql;
+    	
+    	$returnArray = array("result"=>0, 
+                            "data_list"=>array(),
+                            "totalNum"=>0,
+                            "sErrMsg"=>"");
+    	
+    	$returnArray["totalNum"] = $this->queryCount($actualCntSql);
+    	TLOG_MSG("IMerchantsResult_DB::SearchForAuditShowDealInfo: [actual cnt sql]=".$actualCntSql." [num]=".$returnArray["totalNum"]); 
+    	if ("0" == $returnArray["totalNum"])
+    	{
+    			return $returnArray;
+    	}
+    	
+    	
+    	$page = $queryInfoArray["page"];
+    	$pageSize = $queryInfoArray["pageSize"];
+    	//$numFrom = $pageSize * ($page - 1);
+    	$numFrom = $queryInfoArray["dataFrom"];
+    	
+    	$actualSql = $actualSql." order by createtime desc limit $numFrom, $pageSize";
+    	
+    	TLOG_MSG("IMerchantsResult_DB::SearchForAuditShowDealInfo: [numFrom]=".$numFrom." [pageSize]=".$pageSize); 
+    	TLOG_MSG("IMerchantsResult_DB::SearchForAuditShowDealInfo: [comm sql]=".$actualSql); 
+    	
+    	$ret = $this->DB->execute_v2($actualSql, 'SELECT');
+    	 if ($ret["result"] != 0)
+	     {
+	     		 TLOG_ERR("IMerchantsResult_DB::SearchForAuditShowDealInfo: Call DB->execute_v2 error [error msg]=".$ret["errorMsg"]);  
+	         $returnArray["result"] = $ret["result"];
+	         $returnArray["sErrMsg"] = $ret["errorMsg"];
+	         return $returnArray;  
+	     }
+	     
+	     $returnArray["data_list"] = $ret["data_list"];
+	     TLOG_MSG("IMerchantsResult_DB::SearchForAuditShowDealInfo: func end");  
+	     return $returnArray;
+    }
+    
+    function queryCount($sqlCount)
+    {
+        $retCount = $this->DB->execute_v2 ( $sqlCount, 'SELECT');
+        if ($retCount["result"] == 0)
+            return $retCount["data_list"][0]["count"];
+        return 0;
+    }
+  
+  	
+    
+    function close()
+    {
+    		$this->DB->close();
+    }
+}
+
+?>

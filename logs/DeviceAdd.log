@@ -1,0 +1,46 @@
+[2022-01-18 18:44:11.496.414][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-18 18:44:11.496.862][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName= param=php_parameter
+[2022-01-18 18:44:11.497.055][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Company::getCompanyList
+[2022-01-18 18:44:11.497.244][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Company method=getCompanyList
+[2022-01-18 18:44:11.497.794][Company.php:54] MSG: Company::getCompanyList: func begin
+[2022-01-18 18:44:11.498.011][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-18 18:44:11.500.82][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-18 18:44:11.510.501][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-18 18:44:11.510.824][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-18 18:44:11.512.115][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-18 18:44:11.512.316][IMerchantsResult.DB.php:574] MSG: IMerchantsResult_DB::getGroupDetail: func begin
+[2022-01-18 18:44:11.515.701][IMerchantsResult.DB.php:583] MSG: IMerchantsResult_DB::getGroupDetail: [actual cnt sql]=select count(*) as count from dtm_group [num]=5
+[2022-01-18 18:44:11.515.977][IMerchantsResult.DB.php:595] MSG: IMerchantsResult_DB::getGroupDetail: [sql]=select id, name, company_id,status from dtm_group  limit 0, 20
+[2022-01-18 18:44:11.516.912][IMerchantsResult.DB.php:606] MSG: IMerchantsResult_DB::getGroupDetail: func end
+[2022-01-18 18:44:11.517.144][IMerchantsResult.DB.php:794] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-18 18:44:11.517.295][IMerchantsResult.DB.php:802] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station 
+[2022-01-18 18:44:11.518.412][IMerchantsResult.DB.php:814] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-18 18:44:11.518.656][IMerchantsResult.DB.php:378] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-18 18:44:11.518.808][IMerchantsResult.DB.php:387] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-18 18:44:11.519.57][IMerchantsResult.DB.php:398] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-18 18:44:11.519.809][IMerchantsResult.DB.php:430] MSG: IMerchantsResult_DB::getDtype: func begin
+[2022-01-18 18:44:11.519.962][IMerchantsResult.DB.php:439] MSG: IMerchantsResult_DB::getDtype: [sql]=select id, name from dtm_dtype 
+[2022-01-18 18:44:11.520.793][IMerchantsResult.DB.php:450] MSG: IMerchantsResult_DB::getDtype: func end
+[2022-01-20 16:06:16.10.471][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 16:06:16.10.821][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName= param=php_parameter
+[2022-01-20 16:06:16.10.968][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=Company::getCompanyList
+[2022-01-20 16:06:16.11.106][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=Company method=getCompanyList
+[2022-01-20 16:06:16.11.504][Company.php:54] MSG: Company::getCompanyList: func begin
+[2022-01-20 16:06:16.11.657][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 16:06:16.15.976][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 16:06:16.19.89][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 16:06:16.20.146][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 16:06:16.21.362][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 16:06:16.21.529][IMerchantsResult.DB.php:601] MSG: IMerchantsResult_DB::getGroupDetail: func begin
+[2022-01-20 16:06:16.24.761][IMerchantsResult.DB.php:610] MSG: IMerchantsResult_DB::getGroupDetail: [actual cnt sql]=select count(*) as count from dtm_group [num]=5
+[2022-01-20 16:06:16.24.965][IMerchantsResult.DB.php:622] MSG: IMerchantsResult_DB::getGroupDetail: [sql]=select id, name, company_id,status from dtm_group  limit 0, 20
+[2022-01-20 16:06:16.25.91][IMerchantsResult.DB.php:633] MSG: IMerchantsResult_DB::getGroupDetail: func end
+[2022-01-20 16:06:16.26.073][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 16:06:16.26.206][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station 
+[2022-01-20 16:06:16.27.374][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 16:06:16.27.546][IMerchantsResult.DB.php:405] MSG: IMerchantsResult_DB::getPtype: func begin
+[2022-01-20 16:06:16.27.687][IMerchantsResult.DB.php:414] MSG: IMerchantsResult_DB::getPtype: [sql]=select id, name from dtm_ptype 
+[2022-01-20 16:06:16.28.828][IMerchantsResult.DB.php:425] MSG: IMerchantsResult_DB::getPtype: func end
+[2022-01-20 16:06:16.28.983][IMerchantsResult.DB.php:457] MSG: IMerchantsResult_DB::getDtype: func begin
+[2022-01-20 16:06:16.29.12][IMerchantsResult.DB.php:466] MSG: IMerchantsResult_DB::getDtype: [sql]=select id, name from dtm_dtype 
+[2022-01-20 16:06:16.29.856][IMerchantsResult.DB.php:477] MSG: IMerchantsResult_DB::getDtype: func end

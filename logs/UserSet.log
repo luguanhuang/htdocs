@@ -1,0 +1,64 @@
+[2022-01-17 20:56:01.804.625][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-17 20:56:01.805.134][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['name','username','companyname','groupname','stationname','roll','status','id','mobile','email','writepassword','password'] param=php_parameter
+[2022-01-17 20:56:01.806.054][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.806.284][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.806.482][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.806.674][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.806.868][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.807.063][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.807.27][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.807.466][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.807.664][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.807.859][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.808.057][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.808.254][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-17 20:56:01.808.451][userset.php:50] MSG: DeviceSet: func roll 1 id=1 passwd=e10adc3949ba59abbe56e057f20f883e
+[2022-01-17 20:56:01.808.648][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=User::getUserAllData
+[2022-01-17 20:56:01.808.838][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=User method=getUserAllData
+[2022-01-17 20:56:01.809.33][User.php:205] MSG: User::getUserAllData: func begin page=1,1 var0=1 var1=1
+[2022-01-17 20:56:01.809.582][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-17 20:56:01.812.008][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-17 20:56:01.814.796][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-17 20:56:01.815.042][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-17 20:56:01.816.153][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-17 20:56:01.816.368][IMerchantsResult.DB.php:664] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-17 20:56:01.816.565][IMerchantsResult.DB.php:672] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=1
+[2022-01-17 20:56:01.817.298][IMerchantsResult.DB.php:684] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-17 20:56:01.817.542][IMerchantsResult.DB.php:794] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-17 20:56:01.817.734][IMerchantsResult.DB.php:802] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='1' and group_id='1'
+[2022-01-17 20:56:01.818.683][IMerchantsResult.DB.php:814] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-17 20:56:01.818.893][IMerchantsResult.DB.php:404] MSG: IMerchantsResult_DB::getRoleInfo: func begin
+[2022-01-17 20:56:01.819.089][IMerchantsResult.DB.php:413] MSG: IMerchantsResult_DB::getRoleInfo: [sql]=select id, name from dtm_rolls
+[2022-01-17 20:56:01.820.177][IMerchantsResult.DB.php:424] MSG: IMerchantsResult_DB::getRoleInfo: func end
+[2022-01-20 20:03:55.585.892][FuncExt.php:130] MSG: FuncExt::getvalue: func begin type=request
+[2022-01-20 20:03:55.586.35][AtherFrameWork.php:449] MSG: AtherFrameWork::new_interface: func begin method=php_interface ParamsName=['name','username','companyname','groupname','stationname','roll','status','id','mobile','email','writepassword','password'] param=php_parameter
+[2022-01-20 20:03:55.587.235][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.587.463][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.587.663][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.587.853][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.588.047][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.588.244][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.588.439][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.588.633][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.588.824][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.589.018][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.589.218][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.589.414][InterFaces.php:181] MSG: Interfaces::getvalue: func begin type=request
+[2022-01-20 20:03:55.589.651][userset.php:59] MSG: DeviceSet: func roll 7 id=32 passwd=e10adc3949ba59abbe56e057f20f883e
+[2022-01-20 20:03:55.589.845][InterFaces.php:217] MSG: Interfaces::get_interface: func begin 1interface=User::getUserAllData
+[2022-01-20 20:03:55.590.044][InterFaces.php:258] MSG: Interfaces::get_interface: func begin class=User method=getUserAllData
+[2022-01-20 20:03:55.590.546][User.php:215] MSG: User::getUserAllData: func begin page=2,2 var0=2 var1=2
+[2022-01-20 20:03:55.590.761][IMerchantsResult.DB.php:21] MSG: IMerchantsResult_DB::__construct: param is more than zero [DATABASE_NAME]=cloud [DATABASE_IP]=localhost [DATABASE_USER]=cloudadmin [DATABASE_PASSWORD]=Cloudadm@123 [DATABASE_CHARSET]=gbk
+[2022-01-20 20:03:55.592.453][IMerchantsResult.DB.php:28] MSG: IMerchantsResult_DB::getCompanyDetail: func begin
+[2022-01-20 20:03:55.595.176][IMerchantsResult.DB.php:37] MSG: IMerchantsResult_DB::getUserDetail: [actual cnt sql]=select count(*) as count from dtm_company [num]=2
+[2022-01-20 20:03:55.595.631][IMerchantsResult.DB.php:50] MSG: IMerchantsResult_DB::getCompanyDetail: [sql]=select id, companyname, status,created_date from dtm_company  limit 0, 20
+[2022-01-20 20:03:55.596.436][IMerchantsResult.DB.php:61] MSG: IMerchantsResult_DB::getCompanyDetail: func end
+[2022-01-20 20:03:55.596.649][IMerchantsResult.DB.php:691] MSG: IMerchantsResult_DB::getSpecialGroupName: func begin
+[2022-01-20 20:03:55.596.771][IMerchantsResult.DB.php:699] MSG: IMerchantsResult_DB::getSpecialGroupName: [sql]=select id, name from dtm_group where company_id=2
+[2022-01-20 20:03:55.597.398][IMerchantsResult.DB.php:711] MSG: IMerchantsResult_DB::getSpecialGroupName: func end11111111
+[2022-01-20 20:03:55.597.638][IMerchantsResult.DB.php:821] MSG: IMerchantsResult_DB::getStationName: func begin
+[2022-01-20 20:03:55.597.756][IMerchantsResult.DB.php:829] MSG: IMerchantsResult_DB::getStationName: [sql]=select id, name,company_id,group_id from dtm_station   where company_id='2' and group_id='2'
+[2022-01-20 20:03:55.598.462][IMerchantsResult.DB.php:841] MSG: IMerchantsResult_DB::getStationName: func end
+[2022-01-20 20:03:55.598.676][IMerchantsResult.DB.php:431] MSG: IMerchantsResult_DB::getRoleInfo: func begin
+[2022-01-20 20:03:55.598.783][IMerchantsResult.DB.php:440] MSG: IMerchantsResult_DB::getRoleInfo: [sql]=select id, name from dtm_rolls
+[2022-01-20 20:03:55.599.403][IMerchantsResult.DB.php:451] MSG: IMerchantsResult_DB::getRoleInfo: func end

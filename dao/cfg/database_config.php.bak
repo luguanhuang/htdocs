@@ -1,0 +1,14 @@
+<?php
+//---------------------
+//----  ���ݿ����� ----
+//---------------------
+define( 'DATABASE_IP',        '198.178.1.217' );
+define( 'DATABASE_USER',      'yd_soc' );
+define( 'DATABASE_PASSWORD',  'yd_soc@12345678' );
+define( 'DATABASE_CHARSET',   'gbk' );
+define( 'DATABASE_NAME',      'ydsoc' );
+
+
+
+define( 'OLD_VERSION_TIME',      '2013-11-10 10:21:37' );
+?>
